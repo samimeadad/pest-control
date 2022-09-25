@@ -3,15 +3,15 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom';
-import logo from "../../images/logo.jpg"
+import logo from "../../images/logo.png"
 
 const Header = () => {
     return (
-        <div>
+        <header>
             <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
-                <Container>
+                <div className='d-flex justify-content-between align-items-center'>
                     <Navbar.Brand>
-                        <div className='d-flex justify-content-between align-items-center'>
+                        <div className='d-flex justify-content-around align-items-center mx-5'>
                             <NavLink to="/home" className="me-5">
                                 <img className='img-fluid' style={ { width: '100px' } } src={ logo } alt="logoImage" />
                             </NavLink>
@@ -26,10 +26,13 @@ const Header = () => {
                             <NavLink className="me-4 text-success text-decoration-none" to="/service"><h3>Our Services</h3></NavLink>
                             <NavLink className="me-4 text-success text-decoration-none" to="/contact"><h3>Contact Us</h3></NavLink>
                         </Nav>
+                        <Nav className="mx-5 text-danger">
+                            <h2>Call Us: 07728957714</h2>
+                        </Nav>
                     </Navbar.Collapse>
-                </Container>
+                </div>
             </Navbar>
-        </div>
+        </header>
     );
 };
 
