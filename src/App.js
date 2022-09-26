@@ -5,6 +5,7 @@ import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Service from './Components/Service/Service';
+import Telephone from './Components/Telephone/Telephone';
 
 function App () {
   return (
@@ -28,6 +29,7 @@ function App () {
             <Service />
           </Route>
         </Switch>
+        <Telephone></Telephone>
         <Footer></Footer>
       </Router>
     </div>

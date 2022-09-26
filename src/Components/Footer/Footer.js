@@ -2,11 +2,13 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../../images/logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 
 //component for footer
 const Footer = () => {
     return (
-        <footer className="bg-info p-5">
+        <footer className="bg-dark text-light p-5">
             <div className="text-center mb-3">
                 <img style={ { width: '150px' } } src={ logo } alt="logoImage" />
             </div>
@@ -18,13 +20,12 @@ const Footer = () => {
             <Container className='my-5'>
                 <Row>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
-                        <h3 className="text-danger mb-5 fw-bold text-center">About Global Pest Control</h3>
-                        <p className="text-justify text-dark ms-3">Our Clinic has grown to provide a world class facility for the advanced infertility treatment.</p>
-                        <p className="text-justify text-dark ms-3">We are among the most qualified implant providers in Bangladesh with over 30 years of quality treatment and experience.</p>
+                        <h3 className="text-light mb-5 fw-bold text-center">About Global Pest Control</h3>
+                        <p className="text-justify text-light ms-3">With our amazing local services available around the clock, we are proud to be able to provide them to our customers! Please call or email our dedicated and helpful customer service team anytime if you need assistance or advice! In order to give you peace of mind, we offer an emergency response service in addition to our quick response service, so you never have to worry!</p>
                     </Col>
 
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 } className="text-center">
-                        <h3 className="text-danger mb-5 fw-bold">Our Locations</h3>
+                        <h3 className="text-light mb-5 fw-bold">Our Locations</h3>
                         <p>
                             <span>Dhaka</span>
                             <br />
@@ -41,7 +42,7 @@ const Footer = () => {
                     </Col>
 
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 } className="text-center">
-                        <h3 className="text-danger mb-5 fw-bold">Our Services</h3>
+                        <h3 className="text-light mb-5 fw-bold">Our Services</h3>
                         <p>
                             <span>Wasps & Bees Nests</span>
                             <br />
@@ -65,7 +66,7 @@ const Footer = () => {
                 <Link to={ { pathname: "https://www.instagram.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fab fa-instagram text-danger me-3" data-toggle="tooltip" title="Github"></i></Link>
                 <Link to={ { pathname: "https://www.youtube.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fab fa-youtube text-danger me-3" data-toggle="tooltip" title="Github"></i></Link>
             </p>
-            <p className="text-secondary text-center fs-6"><small>&copy;Global Pest Control</small></p>
+            <p className="text-light text-center fs-6"><small className='fw-bold'>Copyright &copy; { ( new Date().getFullYear() ) } Global Pest Control</small></p>
         </footer>
     );
 };
