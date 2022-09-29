@@ -66,7 +66,7 @@ const About = () => {
                 <h1 className='my-5 fw-bold'>Our Strengths</h1>
                 <Row>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
-                        <h2 className='text-end mt-5 text-success fw-bold'>The Soldirs</h2>
+                        <h2 className='text-end mt-5 text-success fw-bold'>The Soldiers</h2>
                         <h4 className='text-end'>
                             We work with experts, who operate under the Global Pest Control brand through our franchise business model. They have a solid background in the pest control field and are fully certified and insured, in order to provide a high-quality service. The exterminators are trained and equipped to inspect, treat and proof residential properties and commercial buildings against various types of pests. The teams are on call even when you need a discreet assistance urgently and without delay.
                         </h4>
