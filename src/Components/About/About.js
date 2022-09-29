@@ -41,7 +41,7 @@ const About = () => {
                                 <Card.Header><h2 className='fw-bold'>WHY</h2></Card.Header>
                                 <Card.Body>
                                     <Card.Text>
-                                        We deliver our pest control services effectively, with guaranteed results and with your and your property’s safety in mind.. Our pest control company ensures that all anti-pest treatments are executed in compliance with health and safety regulations. We employ proven methods, professional equipment and industry-grade products to meet both residential and commercial clients’ pest control needs.
+                                        Global Pest Control is part of the renowned services provider brand, which means that we apply the same customer-service practices, high-quality standards and company’s principles of our service delivery process. Through innovative technology, modern online solutions and an all-round satisfaction approach, we make sure that customers and pest technicians alike have a fantastic service experience as an end result.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -51,7 +51,7 @@ const About = () => {
                                 <Card.Header><h2 className='fw-bold'>HOW</h2></Card.Header>
                                 <Card.Body>
                                     <Card.Text>
-                                        Fantastic Pest Control is part of the Fantastic Services brand, which means that we apply the same customer-service practices, high-quality standards and company’s principles of our service delivery process. Through innovative technology, modern online solutions and an all-round satisfaction approach, we make sure that customers and pest technicians alike have a Fantastic service experience as an end result
+                                        We deliver our pest control services effectively, with guaranteed results and with your and your property safety in mind.. Our pest control company ensures that all anti-pest treatments are executed in compliance with health and safety regulations. We employ proven methods, professional equipment and industry-grade products to meet both residential and commercial pest control needs.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -66,9 +66,9 @@ const About = () => {
                 <h1 className='my-5 fw-bold'>Our Strengths</h1>
                 <Row>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
-                        <h2 className='text-end mt-5 text-success fw-bold'>The Soldiers</h2>
+                        <h2 className='text-end mt-5 text-success fw-bold'>The Soldirs</h2>
                         <h4 className='text-end'>
-                            We work with experts, who operate under the Fantastic Pest Control brand through our franchise business model. They have a solid background in the pest control field and are fully certified and insured, in order to provide a high-quality service. The exterminators are trained and equipped to inspect, treat and proof residential properties and commercial buildings against various types of pests. The teams are on call even when you need a discreet assistance urgently and without delay.
+                            We work with experts, who operate under the Global Pest Control brand through our franchise business model. They have a solid background in the pest control field and are fully certified and insured, in order to provide a high-quality service. The exterminators are trained and equipped to inspect, treat and proof residential properties and commercial buildings against various types of pests. The teams are on call even when you need a discreet assistance urgently and without delay.
                         </h4>
                     </Col>
                     <Col xs={ 12 } sm={ 12 } md={ 8 } lg={ 8 }>
