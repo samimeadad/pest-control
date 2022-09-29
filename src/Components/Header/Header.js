@@ -23,9 +23,9 @@ const Header = () => {
                         </Navbar.Brand>
                         <Nav className="ms-5">
                             <NavLink className="me-4 text-success text-decoration-none btn btn-light" to="/home"><h3>Home</h3></NavLink>
-                            <NavLink className="me-4 text-success text-decoration-none btn btn-light" to="/about"><h3>About Us</h3></NavLink>
-                            <NavLink className="me-4 text-success text-decoration-none btn btn-light" to="/service"><h3>Our Services</h3></NavLink>
-                            <NavLink className="me-4 text-success text-decoration-none btn btn-light" to="/contact"><h3>Contact Us</h3></NavLink>
+                            <NavLink className="me-4 text-success text-decoration-none btn btn-light" to="/about"><h3>About</h3></NavLink>
+                            <NavLink className="me-4 text-success text-decoration-none btn btn-light" to="/service"><h3>Services</h3></NavLink>
+                            <NavLink className="me-4 text-success text-decoration-none btn btn-light" to="/contact"><h3>Contact</h3></NavLink>
                         </Nav>
                         <Nav className="mx-5 text-success">
                             <h1><FontAwesomeIcon icon={ faPhoneVolume } /> : <a className="text-decoration-none fw-bold" href="tel: +4407728957714">07728957714</a></h1>
