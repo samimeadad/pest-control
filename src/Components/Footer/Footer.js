@@ -13,7 +13,7 @@ const Footer = () => {
                 <img style={ { width: '150px' } } src={ logo } alt="logoImage" />
             </div>
             <div className="container mb-5">
-                <h5 className="text-justify text-dark text-center">
+                <h5 className="text-justify text-light text-center">
                     A happy home is everyone's dream, but keeping pests out of it is the biggest challenge. Please get in touch with us to make your home pest-free. Let us protect you from the pests that can carry harmful diseases and cause property damage.
                 </h5>
             </div>
