@@ -9,7 +9,7 @@ const About = () => {
         <div>
             <Container className='my-5'>
                 <div className='my-5 text-center'>
-                    <h1>Learn More About Global Pest Control</h1>
+                    <h1 className='fw-bold'>Learn More About <span className='text-success'>Global Pest Control</span></h1>
                 </div>
                 <div className='my-5 text-start'>
                     <p className='text-justify'>
@@ -22,8 +22,9 @@ const About = () => {
                 <Container className='my-5'>
                     <hr />
                 </Container>
-                <h2 className='text-center'>Our Purpose</h2>
+
                 <div className='my-5 text-center'>
+                    <h1 className='text-center fw-bold my-5'>Our Purpose</h1>
                     <Row className='g-5'>
                         <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                             <Card className="mb-2 bg-light h-100">
@@ -62,10 +63,10 @@ const About = () => {
                 <hr />
             </Container>
             <Container className='my-5 text-center'>
-                <h2 className='my-5'>Our Strengths</h2>
+                <h1 className='my-5 fw-bold'>Our Strengths</h1>
                 <Row>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
-                        <h2 className='text-end mt-5 text-success'>The Pest Control Technicians</h2>
+                        <h2 className='text-end mt-5 text-success fw-bold'>The Soldiers</h2>
                         <h4 className='text-end'>
                             We work with experts, who operate under the Fantastic Pest Control brand through our franchise business model. They have a solid background in the pest control field and are fully certified and insured, in order to provide a high-quality service. The exterminators are trained and equipped to inspect, treat and proof residential properties and commercial buildings against various types of pests. The teams are on call even when you need a discreet assistance urgently and without delay.
                         </h4>
@@ -79,7 +80,7 @@ const About = () => {
                         <img className="img-fluid" src={ about2 } alt="errorPageImage" />
                     </Col>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
-                        <h2 className='text-start mt-5 text-success'>Behind The Scenes</h2>
+                        <h2 className='text-start mt-5 text-success fw-bold'>Behind The Scenes</h2>
                         <h4 className='text-start'>
                             In order to achieve the best possible job results, as well as your utmost satisfaction, we count on our amazing IT experts, service development team, quality control specialists and many more professionals. Furthermore, we strive to deliver outstanding customer care and support by evaluating each individual case accurately and thus, meet the customer’s needs and express requirements.
                         </h4>
@@ -87,9 +88,9 @@ const About = () => {
                 </Row>
                 <Row className='my-5'>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
-                        <h2 className='text-end mt-5 text-success'>The Technology</h2>
+                        <h2 className='text-end mt-5 text-success fw-bold'>The Technology</h2>
                         <h4 className='text-end'>
-                            Rune Sovndahl and Anton Skarlatov have been the minds behind our continuously growing Fantastic Family of dedicated professionals, franchise partners and loyal customers for the past decade. Both have worked tirelessly towards the development of our brand while at the same time aiming to make life simpler for you, the client. Through fine-tuning every aspect of our solutions, the founders ensure that our Fantastic brand stands strong and becomes the recognised go-to place when it comes to the property care across the UK.
+                            Pests are the most irritating species in the world which are the disturbances to effective human living. The pests have been controlled for more than decades and centuries, but still, we cannot eliminate them from this world. It is not possible to destroy any species completely, but you can control the presence of insects for a period of time. Though technology is improving with the growth of the world, the pests are involving more. It is possible to defend the presence of pests with a number of methods. Though there are many physical, chemical, and biological methods, it is difficult to kill the total species, and here in Global Pest Control we use the latest innovations in pest control technology.
                         </h4>
                     </Col>
                     <Col xs={ 12 } sm={ 12 } md={ 8 } lg={ 8 }>
