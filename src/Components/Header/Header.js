@@ -28,7 +28,7 @@ const Header = () => {
                             <NavLink className="me-4 text-success text-decoration-none btn btn-light" to="/contact"><h3>Contact</h3></NavLink>
                         </Nav>
                         <Nav className="mx-5 text-success">
-                            <h1><FontAwesomeIcon icon={ faPhoneVolume } /> : <a className="text-decoration-none fw-bold" href="tel: +4407728957714">07728957714</a></h1>
+                            <h1><FontAwesomeIcon icon={ faPhoneVolume } /> : <a className="text-decoration-none fw-bold text-dark" href="tel: +4407728957714">07728957714</a></h1>
                         </Nav>
                     </Navbar.Collapse>
                 </div>

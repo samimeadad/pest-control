@@ -64,6 +64,17 @@ const About = () => {
             </Container>
             <Container className='my-5 text-center'>
                 <h1 className='my-5 fw-bold'>Our Strengths</h1>
+                <Row className='my-5'>
+                    <Col xs={ 12 } sm={ 12 } md={ 8 } lg={ 8 }>
+                        <img className="img-fluid" src={ about3 } alt="errorPageImage" />
+                    </Col>
+                    <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
+                        <h2 className='text-start mt-5 text-success fw-bold'>The Technology</h2>
+                        <h4 className='text-start'>
+                            Pests are the most irritating species in the world which are the disturbances to effective human living. The pests have been controlled for more than decades and centuries, but still, we cannot eliminate them from this world. It is not possible to destroy any species completely, but you can control the presence of insects for a period of time. Though technology is improving with the growth of the world, the pests are involving more. It is possible to defend the presence of pests with a number of methods. Though there are many physical, chemical, and biological methods, it is difficult to kill the total species, and here in Global Pest Control we use the latest innovations in pest control technology.
+                        </h4>
+                    </Col>
+                </Row>
                 <Row>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                         <h2 className='text-end mt-5 text-success fw-bold'>The Soldiers</h2>
@@ -86,17 +97,7 @@ const About = () => {
                         </h4>
                     </Col>
                 </Row>
-                <Row className='my-5'>
-                    <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
-                        <h2 className='text-end mt-5 text-success fw-bold'>The Technology</h2>
-                        <h4 className='text-end'>
-                            Pests are the most irritating species in the world which are the disturbances to effective human living. The pests have been controlled for more than decades and centuries, but still, we cannot eliminate them from this world. It is not possible to destroy any species completely, but you can control the presence of insects for a period of time. Though technology is improving with the growth of the world, the pests are involving more. It is possible to defend the presence of pests with a number of methods. Though there are many physical, chemical, and biological methods, it is difficult to kill the total species, and here in Global Pest Control we use the latest innovations in pest control technology.
-                        </h4>
-                    </Col>
-                    <Col xs={ 12 } sm={ 12 } md={ 8 } lg={ 8 }>
-                        <img className="img-fluid" src={ about3 } alt="errorPageImage" />
-                    </Col>
-                </Row>
+
             </Container>
         </div>
     );

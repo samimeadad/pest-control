@@ -25,36 +25,36 @@ const Footer = () => {
                     </Col>
 
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 } className="text-center">
-                        <h3 className="text-light mb-5 fw-bold">Our Locations</h3>
+                        <h3 className="text-light mb-5 fw-bold">Locations</h3>
                         <p>
-                            <span>Dhaka</span>
+                            <span>London</span>
                             <br />
-                            <span>Sylhet</span>
+                            <span>Sussex</span>
                             <br />
-                            <span>Chittagong</span>
+                            <span>Bristol</span>
                             <br />
-                            <span>Rajshahi</span>
+                            <span>Liverpool</span>
                             <br />
-                            <span>Khulna</span>
+                            <span>Birmingham</span>
                             <br />
-                            <span>Rangpur</span>
+                            <span>Manchester</span>
                         </p>
                     </Col>
 
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 } className="text-center">
-                        <h3 className="text-light mb-5 fw-bold">Our Services</h3>
+                        <h3 className="text-light mb-5 fw-bold">Services</h3>
                         <p>
-                            <span>Wasps & Bees Nests</span>
+                            <Link to="/service/wasp" className='text-decoration-none'><span>Wasps & Bees Nests</span></Link>
                             <br />
-                            <span>Rodents</span>
+                            <Link to="/service/rodent" className='text-decoration-none'><span>Rodents</span></Link>
                             <br />
-                            <span>Cockroaches</span>
+                            <Link to="/service/cockroach" className='text-decoration-none'><span>Cockroaches</span></Link>
                             <br />
-                            <span>Flies</span>
+                            <Link to="/service/flies" className='text-decoration-none'><span>Flies</span></Link>
                             <br />
-                            <span>Bird Proofing</span>
+                            <Link to="/service/birdproofing" className='text-decoration-none'><span>Bird Proofing</span></Link>
                             <br />
-                            <span>Fleas</span>
+                            <Link to="/service/fleas" className='text-decoration-none'><span>Fleas</span></Link>
                         </p>
                     </Col>
                 </Row>
@@ -67,6 +67,7 @@ const Footer = () => {
                 <Link to={ { pathname: "https://www.youtube.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fab fa-youtube text-danger me-3" data-toggle="tooltip" title="Github"></i></Link>
             </p>
             <p className="text-light text-center fs-6"><small className='fw-bold'>Copyright &copy; { ( new Date().getFullYear() ) } Global Pest Control</small></p>
+            <p className="text-light text-center fs-6 fw-bold">Global Pest Control, 78 Wilfrid Road, Hove, BN3 7FL, East Sussex, UK</p>
         </footer>
     );
 };

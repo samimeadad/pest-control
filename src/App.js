@@ -10,6 +10,13 @@ import PageNotFound from './Components/PageNotFound/PageNotFound';
 import Service from './Components/Service/Service';
 import ServiceHeader from './Components/Service/ServiceHeader';
 import Telephone from './Components/Telephone/Telephone';
+import Wasp from './Components/Service/Wasp';
+import Rodent from './Components/Service/Rodent';
+import Cockroach from './Components/Service/Cockroach';
+import Flies from './Components/Service/Flies';
+import BirdProofing from './Components/Service/BirdProofing';
+import Fleas from './Components/Service/Fleas';
+
 
 function App () {
   return (
@@ -34,6 +41,30 @@ function App () {
           <Route exact path="/service">
             <ServiceHeader />
             <Service />
+          </Route>
+          <Route exact path="/service/wasp">
+            <ServiceHeader />
+            <Wasp />
+          </Route>
+          <Route exact path="/service/rodent">
+            <ServiceHeader />
+            <Rodent />
+          </Route>
+          <Route exact path="/service/cockroach">
+            <ServiceHeader />
+            <Cockroach />
+          </Route>
+          <Route exact path="/service/flies">
+            <ServiceHeader />
+            <Flies />
+          </Route>
+          <Route exact path="/service/birdproofing">
+            <ServiceHeader />
+            <BirdProofing />
+          </Route>
+          <Route exact path="/service/fleas">
+            <ServiceHeader />
+            <Fleas />
           </Route>
           <Route exact path="*">
             <PageNotFound />
