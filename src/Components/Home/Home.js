@@ -1,9 +1,10 @@
 import React from 'react';
+import ImageSlider from './ImageSlider';
 
 const Home = () => {
     return (
         <div>
-            <h1>Home</h1>
+            <ImageSlider />
         </div>
     );
 };
