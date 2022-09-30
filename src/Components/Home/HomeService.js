@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 
@@ -15,89 +15,94 @@ const HomeService = () => {
                 </p>
             </div>
             <div>
-                <CardGroup>
-                    <Card className='me-3 text-center'>
-                        <Card.Img variant="top" src="holder.js/100px160" />
-                        <Card.Body>
-                            <Card.Title>Wasps & Bees Nests</Card.Title>
-                            <Card.Text>
-                                Wasps nests and bee hives cause a constant issue for homeowners during the long summer months. Our local team are adept at providing quick and effective treatment that eliminates these nests in a matter of hours. Our wasp removal and bee treatment ensures you are free from the risk of stings and able to enjoy your garden in peace once again!
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
-                    </Card>
-                    <Card className='me-3'>
-                        <Card.Img variant="top" src="holder.js/100px160" />
-                        <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                                This card has supporting text below as a natural lead-in to
-                                additional content.{ ' ' }
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
-                    </Card>
-                    <Card className='me-3'>
-                        <Card.Img variant="top" src="holder.js/100px160" />
-                        <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in
-                                to additional content. This card has even longer content than the
-                                first to show that equal height action.
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
-                    </Card>
-                </CardGroup>
-                <CardGroup>
-                    <Card className='me-3 text-center'>
-                        <Card.Img variant="top" src="holder.js/100px160" />
-                        <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in
-                                to additional content. This content is a little bit longer.
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
-                    </Card>
-                    <Card className='me-3'>
-                        <Card.Img variant="top" src="holder.js/100px160" />
-                        <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                                This card has supporting text below as a natural lead-in to
-                                additional content.{ ' ' }
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
-                    </Card>
-                    <Card className='me-3'>
-                        <Card.Img variant="top" src="holder.js/100px160" />
-                        <Card.Body>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in
-                                to additional content. This card has even longer content than the
-                                first to show that equal height action.
-                            </Card.Text>
-                        </Card.Body>
-                        <Card.Footer>
-                            <small className="text-muted">Last updated 3 mins ago</small>
-                        </Card.Footer>
-                    </Card>
-                </CardGroup>
+                <Row className='g-2'>
+                    <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
+                        <Card className='me-3 text-center h-100'>
+                            <Card.Img variant="top" src="holder.js/100px160" />
+                            <Card.Body>
+                                <Card.Title>Wasps & Bees Nests</Card.Title>
+                                <Card.Text>
+                                    Wasps nests and bee hives cause a constant issue for homeowners during the long summer months. Our local team are adept at providing quick and effective treatment that eliminates these nests in a matter of hours. Our wasp removal and bee treatment ensures you are free from the risk of stings and able to enjoy your garden in peace once again!
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                                <small className="text-muted">Last updated 3 mins ago</small>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
+                        <Card className='me-3 text-center h-100'>
+                            <Card.Img variant="top" src="holder.js/100px160" />
+                            <Card.Body>
+                                <Card.Title>Rodents</Card.Title>
+                                <Card.Text>
+                                    Rats, mice and even squirrels can cause major disruption to your home or business. Causing unsanitary conditions and even fire hazards, rodents need to be addressed ASAP. Our local team stock a number of traps that can help to remove mice and rats from your property. So, if you think you are living alongside rodents, give us a call!
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                                <small className="text-muted">Last updated 3 mins ago</small>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
+                        <Card className='me-3 text-center h-100'>
+                            <Card.Img variant="top" src="holder.js/100px160" />
+                            <Card.Body>
+                                <Card.Title>Cockroaches</Card.Title>
+                                <Card.Text>
+                                    From eating your food to spreading disease, cockroaches are strongly linked to unsanitary connotations. This is not something you can just let slide on your property. Our pest control team can clear up the cockroach infestation efficiently, with no mess and no more hassle. Get your free quote from us today!
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                                <small className="text-muted">Last updated 3 mins ago</small>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                </Row>
+                <Row className='g-2 my-3'>
+                    <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
+                        <Card className='me-3 text-center h-100'>
+                            <Card.Img variant="top" src="holder.js/100px160" />
+                            <Card.Body>
+                                <Card.Title>Flies</Card.Title>
+                                <Card.Text>
+                                    When an infestation of flies breaks out at your home, it is never a pleasant experience. From bites, to destroying your food and more, they need to be dealt with fast. ERG are on hand 7 days a week with a local pest controller on hand to apply the lasting treatment to your property!
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                                <small className="text-muted">Last updated 3 mins ago</small>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
+                        <Card className='me-3 text-center h-100'>
+                            <Card.Img variant="top" src="holder.js/100px160" />
+                            <Card.Body>
+                                <Card.Title>Bird Proofing</Card.Title>
+                                <Card.Text>
+                                    Birds can be a tremendous stress on homeowners and commercial properties across the UK. They contribute to noise pollution, mess and much more. The only true way of dealing with them is to use trusted bird proofing methods. Our pest controllers can install a variety of bird proofing equipment, keeping them from landing or nesting on your ledges, rooftops or windows.
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                                <small className="text-muted">Last updated 3 mins ago</small>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                    <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
+                        <Card className='me-3 text-center h-100'>
+                            <Card.Img variant="top" src="holder.js/100px160" />
+                            <Card.Body>
+                                <Card.Title>Fleas</Card.Title>
+                                <Card.Text>
+                                    Once a flea infestation appears on your property, it can be a nightmare to deal with. Your high street flea bombs and other treatments are rarely effective. The only true way to deal with a flea infestation is to call in the professionals. We eliminate the fleas themselves, and their eggs, putting a stop to your flea problem for good!
+                                </Card.Text>
+                            </Card.Body>
+                            <Card.Footer>
+                                <small className="text-muted">Last updated 3 mins ago</small>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+                </Row>
             </div>
         </Container>
     );
