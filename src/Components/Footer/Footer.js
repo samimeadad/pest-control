@@ -8,7 +8,7 @@ import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 //component for footer
 const Footer = () => {
     return (
-        <footer className="bg-dark text-light p-5">
+        <footer className="bg-dark text-light p-5 overflow-hidden">
             <div className="text-center mb-3">
                 <img style={ { width: '150px' } } src={ logo } alt="logoImage" />
             </div>

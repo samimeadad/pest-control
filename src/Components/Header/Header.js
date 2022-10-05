@@ -5,13 +5,12 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom';
 import logo from "../../images/logo.png"
-import HomeTelephone from '../Home/HomeTelephone';
 import { Button, Container } from 'react-bootstrap';
 
 const Header = () => {
     return (
         <header className='header overflow-hidden'>
-            <Container>
+            <Container className='overflow-hidden'>
                 <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className='ms-3' />
                     <Navbar.Collapse id="responsive-navbar-nav">
@@ -22,7 +21,7 @@ const Header = () => {
                                 </NavLink>
                             </div>
                             <div>
-                                <h1 className='me-5 text-success'>Global Pest Control</h1>
+                                <h1 className='me-5 text-success fw-bold'>Global Pest Control</h1>
                             </div>
                         </Navbar.Brand>
                         <Nav className="ms-5">
@@ -34,8 +33,8 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Navbar>
             </Container>
-            <div className='text-center bg-light p-3'>
-                <h1 className='text-danger fw-bold'>Call Now:</h1>
+            <div className='text-center bg-light p-3 overflow-hidden'>
+                <h1 className='text-danger fw-bold'>Call Now</h1>
                 <Button variant='danger' className='p-3'><h1><FontAwesomeIcon className="text-light" icon={ faPhoneVolume } /> <a className="text-decoration-none text-light fw-bold" href="tel: +4407728957714"> : 07728957714</a></h1></Button>
             </div>
         </header>

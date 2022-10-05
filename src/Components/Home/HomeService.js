@@ -5,16 +5,16 @@ import CardGroup from 'react-bootstrap/CardGroup';
 
 const HomeService = () => {
     return (
-        <Container>
-            <div className='my-5 text-center'>
+        <Container className='overflow-hidden'>
+            <div className='my-5 text-center overflow-hidden'>
                 <h2 className='fw-bold'>Some Of The Pest Control Solutions We Can Offer You</h2>
             </div>
-            <div className='my-5 text-center'>
+            <div className='my-5 text-center overflow-hidden'>
                 <p className='text-center'>
                     Our professionals specialise in a range of pest control work, dedicated at eradicating your pest infestations and removing the pest problems on your property. We only source highly qualified and experienced pest controllers, who can deal with the following, and more...
                 </p>
             </div>
-            <div>
+            <div className='overflow-hidden'>
                 <Row className='g-2'>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                         <Card className='me-3 text-center h-100'>
