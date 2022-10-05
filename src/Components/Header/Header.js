@@ -26,10 +26,10 @@ const Header = () => {
                             </div>
                         </Navbar.Brand>
                         <Nav className="ms-5">
-                            <NavLink className="me-4 text-success text-decoration-none btn btn-light" to="/home"><h3>Home</h3></NavLink>
-                            <NavLink className="me-4 text-success text-decoration-none btn btn-light" to="/about"><h3>About</h3></NavLink>
-                            <NavLink className="me-4 text-success text-decoration-none btn btn-light" to="/service"><h3>Services</h3></NavLink>
-                            <NavLink className="me-4 text-success text-decoration-none btn btn-light" to="/contact"><h3>Contact</h3></NavLink>
+                            <NavLink className="me-4 text-success text-decoration-none btn btn-light" to="/home"><h3 className='fw-bold'>Home</h3></NavLink>
+                            <NavLink className="me-4 text-success text-decoration-none btn btn-light" to="/about"><h3 className='fw-bold'>About</h3></NavLink>
+                            <NavLink className="me-4 text-success text-decoration-none btn btn-light" to="/service"><h3 className='fw-bold'>Services</h3></NavLink>
+                            <NavLink className="me-4 text-success text-decoration-none btn btn-light" to="/contact"><h3 className='fw-bold'>Contact</h3></NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
