@@ -6,10 +6,77 @@ import about3 from '../../images/about/about-3.jpg'
 
 const About = () => {
     return (
-        <div>
-            <Container className='my-5'>
-                <div className='my-5 text-center'>
-                    <h1 className='fw-bold'>Learn More About <span className='text-success'>Global Pest Control</span></h1>
+        <div className='my-5 overflow-hidden'>
+            <Container className='my-5 overflow-hidden text-center'>
+                <h1 className='fw-bold my-5 text-success'>Our Vision</h1>
+                <h5 className='my-5'>
+                    We strive to be recognised as the best pest control service provider in our market by our clients, team members, and industry experts.
+                </h5>
+                <hr className='my-5' />
+                <h1 className='fw-bold my-5 text-success'>Our Mission</h1>
+                <h5 className='my-5'>
+                    We provide the most proactive, comprehensive and affordable pest control service possible, ensuring that every client's image and reputation are protected and enhanced at every step while exceeding their expectations at every turn.
+                </h5>
+                <hr className='my-5' />
+                <h1 className='fw-bold my-5 text-success'>Our Core Values</h1>
+                <div className='text-start my-5'>
+                    <p className='fs-5 my-5'>
+                        Four core values guide the decision-making process at Global Pest Control. These values are:
+                    </p>
+                    <div className='my-5'>
+                        <h2 className='my-3 fw-bold text-success'>1. Quality</h2>
+                        <p className='fs-5'>
+                            We must do everything in the best possible way. We are completely committed to high standards in all aspects of our business. We will:
+                            <ul className='m-3'>
+                                <li>Use the best materials and continually enhance our offerings.</li>
+                                <li>Hire the best team and develop new leaders through mentoring and training.</li>
+                                <li>Provide the best service and constantly look for opportunities to improve.</li>
+                                <li>Commit to the safest work environment with no compromises and continual vigilance.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div className='my-5'>
+                        <h2 className='my-3 fw-bold text-success'>2. Leadership</h2>
+                        <p className='fs-5'>
+                            Being one of the leaders in the pest control industry, we are committed to being the best in everything we do. As a leader, we will:
+                            <ul className='m-3'>
+                                <li>Deliver high standards in quality and service.</li>
+                                <li>Be good environmental stewards.</li>
+                                <li>Act with integrity and professionalism with our employees, clients, vendors and peers.</li>
+                                <li>Maintain an image that supports our mission.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div className='my-5'>
+                        <h2 className='my-3 fw-bold text-success'>3. Teamwork</h2>
+                        <p className='fs-5'>
+                            We strive to work together with our clients, vendors, team members, and the entire community by:
+                            <ul className='m-3'>
+                                <li>Showing respect to all.</li>
+                                <li>Supporting cooperation.</li>
+                                <li>Adapting to the ever-changing work environment.</li>
+                                <li>Providing effective communication to all.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div className='my-5'>
+                        <h2 className='my-3 fw-bold text-success'>4. Profitability</h2>
+                        <p className='fs-5'>
+                            The efficient use of labour and materials results in a profitable company. Being profitable enables us to:
+                            <ul className='m-3'>
+                                <li>Reinvest in new equipment, processes, facilities, and people to help us grow.</li>
+                                <li>Provide growth and opportunities for our team.</li>
+                                <li>Help our team provide for themselves and their families.</li>
+                                <li>Give back to the community.</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <hr className='my-5' />
+            </Container>
+            <Container className='overflow-hidden'>
+                <div className='text-center'>
+                    <h1 className='fw-bold text-success'>Learn More About Global Pest Control</h1>
                 </div>
                 <div className='my-5 text-start'>
                     <p className='text-justify'>
@@ -24,11 +91,11 @@ const About = () => {
                 </Container>
 
                 <div className='my-5 text-center'>
-                    <h1 className='text-center fw-bold my-5'>Our Purpose</h1>
+                    <h1 className='text-center fw-bold my-5 text-success'>Our Purpose</h1>
                     <Row className='g-5'>
                         <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                             <Card className="mb-2 bg-light h-100">
-                                <Card.Header><h2 className='fw-bold'>WHAT</h2></Card.Header>
+                                <Card.Header><h2 className='fw-bold text-success'>WHAT</h2></Card.Header>
                                 <Card.Body>
                                     <Card.Text>
                                         We help thousands of households and businesses in London, as well as in the South East and the North West of the country each month to get rid of mice, rats, bed bugs, fleas, wasps and other health-hazardous pests. We offer all-in-one pest control solutions that include inspection, treatment, proofing and prevention against a wide variety of vermin infestations.
@@ -38,7 +105,7 @@ const About = () => {
                         </Col>
                         <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                             <Card className="mb-2 bg-light h-100">
-                                <Card.Header><h2 className='fw-bold'>WHY</h2></Card.Header>
+                                <Card.Header><h2 className='fw-bold text-success'>WHY</h2></Card.Header>
                                 <Card.Body>
                                     <Card.Text>
                                         Global Pest Control is part of the renowned services provider brand, which means that we apply the same customer-service practices, high-quality standards and company’s principles of our service delivery process. Through innovative technology, modern online solutions and an all-round satisfaction approach, we make sure that customers and pest technicians alike have a fantastic service experience as an end result.
@@ -48,7 +115,7 @@ const About = () => {
                         </Col>
                         <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                             <Card className="mb-2 bg-light h-100">
-                                <Card.Header><h2 className='fw-bold'>HOW</h2></Card.Header>
+                                <Card.Header><h2 className='fw-bold text-success'>HOW</h2></Card.Header>
                                 <Card.Body>
                                     <Card.Text>
                                         We deliver our pest control services effectively, with guaranteed results and with your and your property safety in mind.. Our pest control company ensures that all anti-pest treatments are executed in compliance with health and safety regulations. We employ proven methods, professional equipment and industry-grade products to meet both residential and commercial pest control needs.
@@ -63,7 +130,7 @@ const About = () => {
                 <hr />
             </Container>
             <Container className='my-5 text-center'>
-                <h1 className='my-5 fw-bold'>Our Strengths</h1>
+                <h1 className='my-5 fw-bold text-success'>Our Strengths</h1>
                 <Row className='my-5'>
                     <Col xs={ 12 } sm={ 12 } md={ 8 } lg={ 8 }>
                         <img className="img-fluid" src={ about3 } alt="errorPageImage" />
