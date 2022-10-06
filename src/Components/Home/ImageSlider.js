@@ -88,20 +88,20 @@ const ImageSlider = () => {
                         }
                         <Form onSubmit={ sendEmail } className="form w-75 mx-auto overflow-hidden">
                             <Form.Group className="mb-3" controlId="formBasicName">
-                                <Form.Control type="text" placeholder="Name" name='name' />
+                                <Form.Control type="text" placeholder="Name" name='name' required />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formBasicPhone">
-                                <Form.Control type="text" placeholder="Phone" name='phone' />
+                                <Form.Control type="text" placeholder="Phone" name='phone' required />
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
-                                <Form.Control type="email" placeholder="Email" name='email' />
+                                <Form.Control type="email" placeholder="Email" name='email' required />
                                 <Form.Text className="text-muted">
                                     We'll never share your email with anyone else.
                                 </Form.Text>
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                                 <Form.Label className='fw-bold'>Please Write Your Address Below</Form.Label>
-                                <Form.Control as="textarea" rows={ 5 } name='message' />
+                                <Form.Control as="textarea" rows={ 5 } name='message' required />
                             </Form.Group>
                             <Button variant="success" type="submit">
                                 Get A Quote
