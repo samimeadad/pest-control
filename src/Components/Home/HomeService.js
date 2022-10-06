@@ -1,21 +1,23 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
+import { Link } from 'react-router-dom';
 
 const HomeService = () => {
     return (
         <Container className='overflow-hidden'>
+            <hr className='my-5 overflow-hidden' />
             <div className='my-5 text-center overflow-hidden'>
-                <h2 className='fw-bold'>Some Of The Pest Control Solutions We Can Offer You</h2>
+                <h2 className='fw-bold text-success'>Some Of The Pest Control Solutions We Can Offer You</h2>
             </div>
             <div className='my-5 text-center overflow-hidden'>
                 <p className='text-center'>
                     Our professionals specialise in a range of pest control work, dedicated at eradicating your pest infestations and removing the pest problems on your property. We only source highly qualified and experienced pest controllers, who can deal with the following, and more...
                 </p>
             </div>
+            <hr className='my-5 overflow-hidden' />
             <div className='overflow-hidden'>
-                <Row className='g-2'>
+                <Row className='g-3'>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                         <Card className='me-3 text-center h-100'>
                             <Card.Img variant="top" src="holder.js/100px160" />
@@ -26,7 +28,7 @@ const HomeService = () => {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
+                                <Link to='/service/wasp'><Button variant='success'>Details</Button></Link>
                             </Card.Footer>
                         </Card>
                     </Col>
@@ -40,7 +42,7 @@ const HomeService = () => {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
+                                <Link to='/service/rodent'><Button variant='success'>Details</Button></Link>
                             </Card.Footer>
                         </Card>
                     </Col>
@@ -54,12 +56,12 @@ const HomeService = () => {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
+                                <Link to='/service/cockroach'><Button variant='success'>Details</Button></Link>
                             </Card.Footer>
                         </Card>
                     </Col>
                 </Row>
-                <Row className='g-2 my-3'>
+                <Row className='g-3 my-5'>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                         <Card className='me-3 text-center h-100'>
                             <Card.Img variant="top" src="holder.js/100px160" />
@@ -70,7 +72,7 @@ const HomeService = () => {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
+                                <Link to='/service/flies'><Button variant='success'>Details</Button></Link>
                             </Card.Footer>
                         </Card>
                     </Col>
@@ -84,7 +86,7 @@ const HomeService = () => {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
+                                <Link to='/service/birdproofing'><Button variant='success'>Details</Button></Link>
                             </Card.Footer>
                         </Card>
                     </Col>
@@ -98,12 +100,13 @@ const HomeService = () => {
                                 </Card.Text>
                             </Card.Body>
                             <Card.Footer>
-                                <small className="text-muted">Last updated 3 mins ago</small>
+                                <Link to='/service/fleas'><Button variant='success'>Details</Button></Link>
                             </Card.Footer>
                         </Card>
                     </Col>
                 </Row>
             </div>
+            <hr className='my-5 overflow-hidden' />
         </Container>
     );
 };

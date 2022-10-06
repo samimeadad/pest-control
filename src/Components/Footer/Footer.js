@@ -9,15 +9,15 @@ import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 const Footer = () => {
     return (
         <footer className="bg-dark text-light p-5 overflow-hidden">
-            <div className="text-center mb-3">
-                <img style={ { width: '150px' } } src={ logo } alt="logoImage" />
+            <div className="text-center mb-3 overflow-hidden">
+                <img style={ { width: '150px' } } src={ logo } alt="logoImage" className='img-fluid' />
             </div>
-            <div className="container mb-5">
-                <h5 className="text-justify text-light text-center">
+            <div className="container mb-5 overflow-hidden">
+                <h5 className="text-justify text-light text-center overflow-hidden">
                     A happy home is everyone's dream, but keeping pests out of it is the biggest challenge. Please get in touch with us to make your home pest-free. Let us protect you from the pests that can carry harmful diseases and cause property damage.
                 </h5>
             </div>
-            <Container className='my-5'>
+            <Container className='my-5 overflow-hidden'>
                 <Row>
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                         <h3 className="text-light mb-5 fw-bold text-center">About Global Pest Control</h3>
@@ -59,7 +59,7 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-            <p className="mt-5 text-center">
+            <p className="mt-5 text-center overflow-hidden">
                 <Link to={ { pathname: "https://www.facebook.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fa fa-facebook text-danger me-3" data-toggle="tooltip" title="Facebook"></i></Link>
                 <Link to={ { pathname: "https://www.twitter.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fa fa-twitter text-danger me-3" data-toggle="tooltip" title="Twitter"></i></Link>
                 <Link to={ { pathname: "https://www.linkedin.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fa fa-linkedin text-danger me-3" data-toggle="tooltip" title="Linkedin"></i></Link>
