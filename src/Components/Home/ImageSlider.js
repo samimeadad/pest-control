@@ -81,10 +81,10 @@ const ImageSlider = () => {
                     </Carousel>
                 </Col>
                 <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 }>
-                    <div className='text-center my-4 overflow-hidden'>
+                    <div className='text-center my-2 overflow-hidden'>
                         <h2 className='fw-bold text-success mb-3'>Get A Free Quote</h2>
                         {
-                            success ? <h6 className="text-success">{ successMessage }</h6> : <h4 className="text-danger">{ error }</h4>
+                            success ? <h6 className="text-success">{ successMessage }</h6> : <h6 className="text-danger">{ error }</h6>
                         }
                         <Form onSubmit={ sendEmail } className="form w-75 mx-auto overflow-hidden">
                             <Form.Group className="mb-3" controlId="formBasicName">
@@ -98,6 +98,17 @@ const ImageSlider = () => {
                                 <Form.Text className="text-muted">
                                     We'll never share your email with anyone else.
                                 </Form.Text>
+                            </Form.Group>
+                            <Form.Group className="mb-3" controlId="formBasicService">
+                                <Form.Select aria-label="service" placeholder="Select Service" name='service' required>
+                                    <option>Select Service</option>
+                                    <option value="Wasps & Bee Nest">Wasps & Bee Nest</option>
+                                    <option value="Rodents">Rodents</option>
+                                    <option value="Cockroaches">Cockroaches</option>
+                                    <option value="Flies">Flies</option>
+                                    <option value="Bird Proofing">Bird Proofing</option>
+                                    <option value="Fleas">Fleas</option>
+                                </Form.Select>
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                                 <Form.Label className='fw-bold'>Please Write Your Address Below</Form.Label>
