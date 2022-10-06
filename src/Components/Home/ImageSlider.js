@@ -35,8 +35,10 @@ const ImageSlider = () => {
         <div className='my-5 overflow-hidden'>
             <Row className='g-5 overflow-hidden'>
                 <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 }>
-                    <div className='text-center'>
-                        <h1>image</h1>
+                    <div className='text-center ms-4 mt-5'>
+                        <h1 className='text-start text-success fw-bold fs-1 my-3'>Global Pest Control</h1>
+                        <h1 className='text-start text-secondary fw-bold fs-1 my-3'>For A Pest-Free Home</h1>
+                        <h1 className='text-start text-danger fw-bold fs-1 my-3'>Pest Termination To Perfection</h1>
                     </div>
                 </Col>
                 <Col xs={ 12 } sm={ 12 } md={ 6 } lg={ 6 }>
