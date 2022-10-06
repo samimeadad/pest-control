@@ -42,8 +42,8 @@ const Footer = () => {
                     </Col>
 
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 } className="text-center">
-                        <h3 className="text-light mb-5 fw-bold">Services</h3>
-                        <p>
+                        <h3 className="text-light mb-5 fw-bold overflow-hidden">Services</h3>
+                        <p className='overflow-hidden text-center'>
                             <Link to="/service/wasp" className='text-decoration-none'><span>Wasps & Bees Nests</span></Link>
                             <br />
                             <Link to="/service/rodent" className='text-decoration-none'><span>Rodents</span></Link>
