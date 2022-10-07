@@ -4,6 +4,12 @@ import Carousel from 'react-bootstrap/Carousel';
 import banner1 from '../../images/banner/1.jpg';
 import banner2 from '../../images/banner/2.jpg';
 import banner3 from '../../images/banner/3.jpg';
+import banner4 from '../../images/banner/4.jpg';
+import banner5 from '../../images/banner/5.jpg';
+import banner6 from '../../images/banner/6.jpg';
+import banner7 from '../../images/banner/7.jpg';
+import banner8 from '../../images/banner/8.jpg';
+import banner9 from '../../images/banner/9.jpg';
 import emailjs from '@emailjs/browser';
 
 
@@ -75,6 +81,90 @@ const ImageSlider = () => {
 
                             <Carousel.Caption>
                                 <h3>Third slide label</h3>
+                                <p>
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                </p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100 img-fluid"
+                                src={ banner4 }
+                                alt="Fourth slide"
+                            />
+
+                            <Carousel.Caption>
+                                <h3>Fourth slide label</h3>
+                                <p>
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                </p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100 img-fluid"
+                                src={ banner5 }
+                                alt="Fifth slide"
+                            />
+
+                            <Carousel.Caption>
+                                <h3>Fifth slide label</h3>
+                                <p>
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                </p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100 img-fluid"
+                                src={ banner6 }
+                                alt="Sixth slide"
+                            />
+
+                            <Carousel.Caption>
+                                <h3>Sixth slide label</h3>
+                                <p>
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                </p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100 img-fluid"
+                                src={ banner7 }
+                                alt="Seventh slide"
+                            />
+
+                            <Carousel.Caption>
+                                <h3>Seventh slide label</h3>
+                                <p>
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                </p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100 img-fluid"
+                                src={ banner8 }
+                                alt="Eighth slide"
+                            />
+
+                            <Carousel.Caption>
+                                <h3>Eighth slide label</h3>
+                                <p>
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                </p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100 img-fluid"
+                                src={ banner9 }
+                                alt="Ninth slide"
+                            />
+
+                            <Carousel.Caption>
+                                <h3>Ninth slide label</h3>
                                 <p>
                                     Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                                 </p>
