@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Col, Form, Row } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
-import banner1 from '../../images/banner/1.jpg';
 import banner2 from '../../images/banner/2.jpg';
 import banner3 from '../../images/banner/3.jpg';
 import banner4 from '../../images/banner/4.jpg';
@@ -49,17 +48,6 @@ const ImageSlider = () => {
                 </Col>
                 <Col xs={ 12 } sm={ 12 } md={ 6 } lg={ 6 }>
                     <Carousel activeIndex={ index } onSelect={ handleSelect } className="text-center overflow-hidden">
-                        <Carousel.Item>
-                            <img
-                                className="d-block w-100 img-fluid"
-                                src={ banner1 }
-                                alt="First slide"
-                            />
-                            <Carousel.Caption>
-                                <h3>First slide label</h3>
-                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
                         <Carousel.Item>
                             <img
                                 className="d-block w-100 img-fluid"
