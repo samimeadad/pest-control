@@ -19,12 +19,12 @@ const Footer = () => {
             </div>
             <Container className='my-5 overflow-hidden'>
                 <Row>
-                    <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
+                    <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 }>
                         <h3 className="text-light mb-5 fw-bold text-center">About Global Pest Control</h3>
                         <p className="text-justify text-light ms-3">With our amazing local services available around the clock, we are proud to be able to provide them to our customers! Please call or email our dedicated and helpful customer service team anytime if you need assistance or advice! In order to give you peace of mind, we offer an emergency response service in addition to our quick response service, so you never have to worry!</p>
                     </Col>
 
-                    <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 } className="text-center">
+                    <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 } className="text-center">
                         <h3 className="text-light mb-5 fw-bold">Locations</h3>
                         <p>
                             <span>London</span>
@@ -41,7 +41,7 @@ const Footer = () => {
                         </p>
                     </Col>
 
-                    <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 } className="text-center">
+                    <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 } className="text-center">
                         <h3 className="text-light mb-5 fw-bold overflow-hidden">Services</h3>
                         <p className='overflow-hidden text-center'>
                             <Link to="/service/wasp" className='text-decoration-none'><span>Wasps & Bees Nests</span></Link>
@@ -55,6 +55,18 @@ const Footer = () => {
                             <Link to="/service/birdproofing" className='text-decoration-none'><span>Bird Proofing</span></Link>
                             <br />
                             <Link to="/service/fleas" className='text-decoration-none'><span>Fleas</span></Link>
+                        </p>
+                    </Col>
+                    <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 } className="text-center">
+                        <h3 className="text-light mb-5 fw-bold overflow-hidden">Navigation</h3>
+                        <p className='overflow-hidden text-center'>
+                            <Link to="/home" className='text-decoration-none'><span>HOME</span></Link>
+                            <br />
+                            <Link to="/about" className='text-decoration-none'><span>ABOUT</span></Link>
+                            <br />
+                            <Link to="/service" className='text-decoration-none'><span>SERVICE</span></Link>
+                            <br />
+                            <Link to="/contact" className='text-decoration-none'><span>CONTACT</span></Link>
                         </p>
                     </Col>
                 </Row>
