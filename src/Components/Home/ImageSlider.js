@@ -51,7 +51,7 @@ const ImageSlider = () => {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100 img-fluid"
-                                src={ banner2 }
+                                src={ banner3 }
                                 alt="Second slide"
                             />
 
@@ -63,7 +63,7 @@ const ImageSlider = () => {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100 img-fluid"
-                                src={ banner3 }
+                                src={ banner4 }
                                 alt="Third slide"
                             />
 
@@ -77,7 +77,7 @@ const ImageSlider = () => {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100 img-fluid"
-                                src={ banner4 }
+                                src={ banner2 }
                                 alt="Fourth slide"
                             />
 
