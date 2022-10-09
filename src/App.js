@@ -16,6 +16,12 @@ import Cockroach from './Components/Service/Cockroach';
 import Flies from './Components/Service/Flies';
 import BirdProofing from './Components/Service/BirdProofing';
 import Fleas from './Components/Service/Fleas';
+import WaspHeader from './Components/Service/WaspHeader';
+import RodentHeader from './Components/Service/RodentHeader';
+import CockroachHeader from './Components/Service/CockroachHeader';
+import FliesHeader from './Components/Service/FliesHeader';
+import BirdProofingHeader from './Components/Service/BirdProofingHeader';
+import FleasHeader from './Components/Service/FleasHeader';
 
 
 function App () {
@@ -43,27 +49,27 @@ function App () {
             <Service />
           </Route>
           <Route exact path="/service/wasp">
-            <ServiceHeader />
+            <WaspHeader />
             <Wasp />
           </Route>
           <Route exact path="/service/rodent">
-            <ServiceHeader />
+            <RodentHeader />
             <Rodent />
           </Route>
           <Route exact path="/service/cockroach">
-            <ServiceHeader />
+            <CockroachHeader />
             <Cockroach />
           </Route>
           <Route exact path="/service/flies">
-            <ServiceHeader />
+            <FliesHeader />
             <Flies />
           </Route>
           <Route exact path="/service/birdproofing">
-            <ServiceHeader />
+            <BirdProofingHeader />
             <BirdProofing />
           </Route>
           <Route exact path="/service/fleas">
-            <ServiceHeader />
+            <FleasHeader />
             <Fleas />
           </Route>
           <Route exact path="*">

@@ -50,6 +50,7 @@ const Contact = () => {
                     </Button>
                 </Form>
             </div>
+            <hr className='my-5' />
             <Row className='g-5'>
                 <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                     <Card className="h-100 text-success">
@@ -82,6 +83,7 @@ const Contact = () => {
                     </Card>
                 </Col>
             </Row>
+            <hr className='my-5' />
         </Container >
     );
 };
