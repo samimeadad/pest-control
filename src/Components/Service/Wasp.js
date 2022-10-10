@@ -10,6 +10,7 @@ import wasp5 from '../../images/service/main/wasp5.jpg';
 import wasp6 from '../../images/service/main/wasp6.jpg';
 
 import { Link } from 'react-router-dom';
+import ScrollToTop from 'react-scroll-to-top';
 
 const Wasp = () => {
     return (
@@ -125,6 +126,7 @@ const Wasp = () => {
                     </Col>
                 </Row>
             </Container>
+            <ScrollToTop smooth />
         </div>
     );
 };

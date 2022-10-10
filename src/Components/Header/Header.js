@@ -36,15 +36,15 @@ const Header = () => {
                 </Container>
             </div>
             <div className='text-center p-3 overflow-hidden'>
-                <h1 className='text-danger fw-bold'>Call Now</h1>
-                <Button variant='danger' className='p-3'><h1><FontAwesomeIcon className="text-light" icon={ faPhoneVolume } /> <a className="text-decoration-none text-light fw-bold" href="tel: +4407728957714"> : 07728957714</a></h1></Button>
+                <h3 className='text-danger fw-bold'>Call Now</h3>
+                <Button variant='danger' className='p-3'><h3><FontAwesomeIcon className="text-light" icon={ faPhoneVolume } /> <a className="text-decoration-none text-light fw-bold" href="tel: +4407728957714"> : 077 2895 7714</a></h3></Button>
                 <div className='mt-3'>
                     <p className="text-center">
-                        <Link to={ { pathname: "https://www.facebook.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fa fa-facebook text-primary fw-bold me-3 fs-2" data-toggle="tooltip" title="Facebook"></i></Link>
-                        <Link to={ { pathname: "https://www.twitter.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fa fa-twitter text-primary fw-bold me-3 fs-2" data-toggle="tooltip" title="Twitter"></i></Link>
-                        <Link to={ { pathname: "https://www.youtube.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fab fa-youtube text-danger fw-bold me-3 fs-2" data-toggle="tooltip" title="Github"></i></Link>
-                        <Link to={ { pathname: "https://www.linkedin.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fa fa-linkedin text-primary fw-bold me-3 fs-2" data-toggle="tooltip" title="Linkedin"></i></Link>
-                        <Link to={ { pathname: "https://www.instagram.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fab fa-instagram text-primary fw-bold me-3 fs-2" data-toggle="tooltip" title="Github"></i></Link>
+                        <Link to={ { pathname: "https://www.facebook.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fa fa-facebook text-primary fw-bold me-3 fs-4" data-toggle="tooltip" title="Facebook"></i></Link>
+                        <Link to={ { pathname: "https://www.twitter.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fa fa-twitter text-primary fw-bold me-3 fs-4" data-toggle="tooltip" title="Twitter"></i></Link>
+                        <Link to={ { pathname: "https://www.youtube.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fab fa-youtube text-danger fw-bold me-3 fs-4" data-toggle="tooltip" title="Github"></i></Link>
+                        <Link to={ { pathname: "https://www.linkedin.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fa fa-linkedin text-primary fw-bold me-3 fs-4" data-toggle="tooltip" title="Linkedin"></i></Link>
+                        <Link to={ { pathname: "https://www.instagram.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fab fa-instagram text-primary fw-bold me-3 fs-4" data-toggle="tooltip" title="Github"></i></Link>
                     </p>
                 </div>
             </div>

@@ -10,6 +10,7 @@ import cockroach5 from '../../images/service/main/cockroach5.jpg';
 import cockroach6 from '../../images/service/main/cockroach6.jpg';
 import cockroach7 from '../../images/service/main/cockroach7.jpg';
 import { Link } from 'react-router-dom';
+import ScrollToTop from 'react-scroll-to-top';
 
 const BirdProofing = () => {
     return (
@@ -132,6 +133,7 @@ const BirdProofing = () => {
                     </Col>
                 </Row>
             </Container>
+            <ScrollToTop smooth />
         </div>
     );
 };

@@ -14,7 +14,7 @@ const Telephone = () => {
                     <Col xs={ 12 } sm={ 12 } md={ 4 } lg={ 4 }>
                         <div className='overflow-hidden text-center'>
                             <Button variant='danger' className='p-3 text-center'>
-                                <h1><FontAwesomeIcon className="text-light" icon={ faPhoneVolume } /> <a className="text-decoration-none text-light fw-bold" href="tel: +4407728957714">: 07728957714</a></h1>
+                                <h1><FontAwesomeIcon className="text-light" icon={ faPhoneVolume } /> <a className="text-decoration-none text-light fw-bold" href="tel: +4407728957714">: 077 2895 7714</a></h1>
                             </Button>
                         </div>
                     </Col>
