@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
+import ScrollToTop from 'react-scroll-to-top';
 import about1 from '../../images/about/about-1.jpg'
 import about2 from '../../images/about/about-2.jpg'
 import about3 from '../../images/about/about-3.jpg'
@@ -164,8 +165,8 @@ const About = () => {
                         </h4>
                     </Col>
                 </Row>
-
             </Container>
+            <ScrollToTop smooth />
         </div>
     );
 };

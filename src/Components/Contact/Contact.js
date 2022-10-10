@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Card, Col, Container, Form, Row } from 'react-bootstrap';
 import emailjs from '@emailjs/browser';
+import ScrollToTop from 'react-scroll-to-top';
 
 const Contact = () => {
 
@@ -84,6 +85,7 @@ const Contact = () => {
                 </Col>
             </Row>
             <hr className='my-5' />
+            <ScrollToTop smooth />
         </Container >
     );
 };

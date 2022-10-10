@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutHeader = () => {
     return (
-        <div>
+        <div id='about-header'>
             <div className='bg-dark py-5 px-5 mt-5 text-light'>
                 <h1>About Us</h1>
             </div>
