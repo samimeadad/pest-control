@@ -97,7 +97,7 @@ const Wasp = () => {
                 <Row>
                     <Col xs={ 12 } sm={ 12 } md={ 7 } lg={ 7 }>
                         <p className='text-start'>
-                            Thre are many kinds of wasps in the UK, but the two most typical wasps you are likely to encounter are the Vespula Vulgaris (also known as the common wasp) and the German wasp (Vespula Germanica). Both types of wasp have recognisable yellow and black markings and are very similar in size and appearance.
+                            There are many kinds of wasps in the UK, but the two most typical wasps you are likely to encounter are the Vespula Vulgaris (also known as the common wasp) and the German wasp (Vespula Germanica). Both types of wasp have recognisable yellow and black markings and are very similar in size and appearance.
                         </p>
                         <p className='text-start'>
                             Other known breeds include the red wasp (Vespula Rufa) and the tree wasp (Dolichovespula Sylvestris). You may encounter the Saxon wasp in the Southern part of the United Kingdom (Dolichovespula Saxonica). It can also be quite standard to face the European hornet (Vespa Crabro) in certain areas of Southern England which is the UK’s only native hornet. It carries a painful stong and is larger in size than ordinary wasps, as well as sharing a similar colouration and pattern to most common and social wasps.
