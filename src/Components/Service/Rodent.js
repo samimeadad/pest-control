@@ -125,8 +125,8 @@ const Rodent = () => {
                                     </li>
                                 </ul>
                             </p>
-                            <p className='text-start text-danger ms-3'>
-                                <h4>Call Global Pest Control services today on 07728 957 714 if you have a cockroach infestation.</h4>
+                            <p className='text-center text-danger'>
+                                <Link to="/contact" className='text-decoration-none text-light'><Button variant='success' className='p-4 my-3'><h4>Get Quote</h4></Button></Link>
                             </p>
                         </Col>
                         <Col xs={ 12 } sm={ 12 } md={ 7 } lg={ 7 }>

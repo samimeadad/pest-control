@@ -4,7 +4,6 @@ import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import wasp1 from '../../images/service/main/wasp1.jpg';
 import wasp2 from '../../images/service/main/wasp2.jpg';
-import wasp3 from '../../images/service/main/wasp3.jpg';
 import wasp4 from '../../images/service/main/wasp4.jpg';
 import wasp5 from '../../images/service/main/wasp5.jpg';
 import wasp6 from '../../images/service/main/wasp6.jpg';
