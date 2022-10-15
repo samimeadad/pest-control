@@ -69,10 +69,10 @@ const Rodent = () => {
                                 <h3 className='my-5'>Types of rodents in the UK</h3>
                             </p>
                             <p className='text-start my-5'>
-                                Rat – The most common rodent you will likely find in the UK is the Rat. There are two species of rat, the brown rat and the black rat. They are often carriers of nasty diseases and parasites, including Weils disease, Listeria, Salmonella, Leptospirosis and Hantavirus. Rats will feed on anything that will give them nutrition, such as rotten food, faeces, and even rotting corpses of other animals. Their lifestyle can lead to them coming into contact with deadly viruses.
+                                <span className='fw-bold'>Rat – </span>The most common rodent you will likely find in the UK is the Rat. There are two species of rat, the brown rat and the black rat. They are often carriers of nasty diseases and parasites, including Weils disease, Listeria, Salmonella, Leptospirosis and Hantavirus. Rats will feed on anything that will give them nutrition, such as rotten food, faeces, and even rotting corpses of other animals. Their lifestyle can lead to them coming into contact with deadly viruses.
                             </p>
                             <p className='text-start'>
-                                Mice – There are several different species of mice in the UK, such as the house mouse, dormouse, harvest mouse, wood mouse and the yellow-necked mouse, Out of their species, only the dormouse is a protected one. A mouse can often carry the same diseases that a rat does. They can often invade properties finding shelter under the floorboards and in attics and wall cavities.
+                                <span className='fw-bold'>Mice – </span> There are several different species of mice in the UK, such as the house mouse, dormouse, harvest mouse, wood mouse and the yellow-necked mouse, Out of their species, only the dormouse is a protected one. A mouse can often carry the same diseases that a rat does. They can often invade properties finding shelter under the floorboards and in attics and wall cavities.
                             </p>
                         </Col>
                         <Col xs={ 12 } sm={ 12 } md={ 7 } lg={ 7 }>
@@ -85,30 +85,52 @@ const Rodent = () => {
                 <div className='my-5 overflow-hidden'>
                     <Row className='g-5'>
                         <Col xs={ 12 } sm={ 12 } md={ 7 } lg={ 7 }>
-                            <img src={ rodent6 } alt="cockroach" className='img-fluid mb-2' />
-                            <img src={ rodent5 } alt="cockroach" className='img-fluid' />
+                            <img src={ rodent6 } alt="cockroach" className='img-fluid' />
                         </Col>
                         <Col xs={ 12 } sm={ 12 } md={ 5 } lg={ 5 }>
                             <p className='text-start'>
-                                Voles – Not commonly found in UK homes. The Vole tends to make their home at riverbanks and lakes. They have a similar look to mice, yet some different features include smaller eyes & tails, smaller ears and a rounded snout. Species of Voles in the UK are the bank vole, water vole and field vole. Voles are protected species under the Wildlife and Countryside Act 1981, so if you discover a vole inside your property, get in touch with a local wildlife expert for further advice.
+                                <span className='fw-bold'>Voles – </span> Not commonly found in UK homes. The Vole tends to make their home at riverbanks and lakes. They have a similar look to mice, yet some different features include smaller eyes & tails, smaller ears and a rounded snout. Species of Voles in the UK are the bank vole, water vole and field vole. Voles are protected species under the Wildlife and Countryside Act 1981, so if you discover a vole inside your property, get in touch with a local wildlife expert for further advice.
                             </p>
                             <p className='text-start'>
-                                Shrews – Shrews are not considered a rodent but share behaviours similar to rodents. Shrews have long, pointed snouts, similar to a small elephant’s trunk. The Shrew is also protected under the Wildlife and Countryside Act 1981.
+                                <span className='fw-bold'>Shrews – </span> Shrews are not considered a rodent but share behaviours similar to rodents. Shrews have long, pointed snouts, similar to a small elephant’s trunk. The Shrew is also protected under the Wildlife and Countryside Act 1981.
                             </p>
                             <p className='text-start'>
-                                Squirrels – There are two species of squirrels in the UK. These are the more populated grey squirrel and the protected red squirrel. The red squirrel is native to the UK, but the grey squirrel was imported to the UK in the 1800s and has since grown to a number close to 2.5 million, whilst their red cousin’s population is slowly declining. The existence of the red squirrel remains a severe threat. The grey squirrel can invade your home, cause damage by chewing through soffits and fascias, and take up residence in your property. This often leads people to look for a squirrel pest control service that can be provided by Eliminate Solutions.
+                                <span className='fw-bold'>Squirrels – </span> There are two species of squirrels in the UK. These are the more populated grey squirrel and the protected red squirrel. The red squirrel is native to the UK, but the grey squirrel was imported to the UK in the 1800s and has since grown to a number close to 2.5 million, whilst their red cousin’s population is slowly declining. The existence of the red squirrel remains a severe threat. The grey squirrel can invade your home, cause damage by chewing through soffits and fascias, and take up residence in your property. This often leads people to look for a squirrel pest control service that can be provided by Eliminate Solutions.
                             </p>
-                            <h3 className='text-start my-5'>HOW DO I KNOW IF I HAVE A RAT PROBLEM?</h3>
+                        </Col>
+                    </Row>
+                </div>
+            </Container>
+            <Container className='text-center overflow-hidden my-5'>
+                <div className='my-5 overflow-hidden'>
+                    <Row className='g-5'>
+                        <Col xs={ 12 } sm={ 12 } md={ 5 } lg={ 5 }>
+                            <h4 className='text-start'>HOW DO I KNOW IF I HAVE A RAT PROBLEM?</h4>
                             <p className='text-start'>
-                                <h6 className='text-start text-dark fw-bold my-3'>Rat droppings – Rat droppings are dark brown and the size of a grain of rice. They are commonly found in concentrated places, making them easy to spot.</h6>
-                                <h6 className='text-start text-dark fw-bold my-3'>Bite marks – Rats’ teeth don’t stop growing and they gnaw on objects to file them down. Look out for bite marks on anything from wood to concrete.</h6>
-                                <h6 className='text-start text-dark fw-bold my-3'>Movement – Rats are nocturnal and if they are in parts of your house, such as the walls or under the floorboards, you may hear them moving around.</h6>
-                                <h6 className='text-start text-dark fw-bold my-3'>Movement – Rats are nocturnal and if they are in parts of your house, such as the walls or under the floorboards, you may hear them moving around.</h6>
-                                <h6 className='text-start text-dark fw-bold my-3 p-2'>Footprints – If you suspect you have rats, you can test by sprinkling some flour and checking the next day for footprints in the flour.</h6>
+                                <ul>
+                                    <li>
+                                        <h6 className='text-start text-dark my-3'>Rat droppings – Rat droppings are dark brown and the size of a grain of rice. They are commonly found in concentrated places, making them easy to spot.</h6>
+                                    </li>
+                                    <li>
+                                        <h6 className='text-start text-dark my-3'>Bite marks – Rats’ teeth don’t stop growing and they gnaw on objects to file them down. Look out for bite marks on anything from wood to concrete.</h6>
+                                    </li>
+                                    <li>
+                                        <h6 className='text-start text-dark my-3'>Movement – Rats are nocturnal and if they are in parts of your house, such as the walls or under the floorboards, you may hear them moving around.</h6>
+                                    </li>
+                                    <li>
+                                        <h6 className='text-start text-dark my-3'>Movement – Rats are nocturnal and if they are in parts of your house, such as the walls or under the floorboards, you may hear them moving around.</h6>
+                                    </li>
+                                    <li>
+                                        <h6 className='text-start text-dark my-3'>Footprints – If you suspect you have rats, you can test by sprinkling some flour and checking the next day for footprints in the flour.</h6>
+                                    </li>
+                                </ul>
                             </p>
-                            <p className='text-start text-danger'>
+                            <p className='text-start text-danger ms-3'>
                                 <h4>Call Global Pest Control services today on 07728 957 714 if you have a cockroach infestation.</h4>
                             </p>
+                        </Col>
+                        <Col xs={ 12 } sm={ 12 } md={ 7 } lg={ 7 }>
+                            <img src={ rodent5 } alt="rodent5" className='img-fluid' />
                         </Col>
                     </Row>
                 </div>
