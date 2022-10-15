@@ -41,15 +41,17 @@ const ImageSlider = () => {
         <div className='w-100 overflow-hidden p-5' style={ { backgroundImage: `url(${ background })`, backgroundSize: "cover", overflow: 'hidden' } }>
             <Row className='overflow-hidden g-5'>
                 <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 }>
-                    <div className='text-center ms-4 mt-4'>
+                    <div className='text-center mt-4'>
                         <h1 className='text-start text-light fw-bold fs-1 my-3'>Global Pest Control</h1>
                         <h1 className='text-start text-warning fw-bold fs-1 my-3'>For A Pest-Free Home</h1>
                         <h1 className='text-start text-light fw-bold fs-1 my-3'>Pest Termination To Perfection</h1>
                     </div>
-                    <div className='text-center ms-4 mt-5'>
+                    <div className='text-center mt-4'>
                         <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; Fast response from 60 minutes</h6>
                         <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; No call-out charge on completed work</h6>
+                        <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; Ethical Responsible Pest Control Solutions</h6>
                         <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; Very competitive local rates</h6>
+                        <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; Preventive Surveys</h6>
                         <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; Discreet engineers</h6>
                     </div>
                 </Col>
@@ -165,7 +167,7 @@ const ImageSlider = () => {
                         {
                             success ? <h6 className="text-light">{ successMessage }</h6> : <h6 className="text-danger">{ error }</h6>
                         }
-                        <Form onSubmit={ sendEmail } className="form w-75 mx-auto overflow-hidden">
+                        <Form onSubmit={ sendEmail } className="form w-100 mx-auto overflow-hidden">
                             <Form.Group className="mb-3" controlId="formBasicName">
                                 <Form.Control type="text" placeholder="Name" name='name' required />
                             </Form.Group>
