@@ -39,7 +39,7 @@ const Cockroach = () => {
                                 The oriental cockroach is also commonly referred to as a waterbug or black beetle and is the larger of the two species. You tend to find them near sewers and other damp areas. Despite its name, it is believed they originate from Africa.
                             </p>
                             <p className='text-start text-danger'>
-                                <h4>If you suspect you have a cockroach problem, call Eliminate Solutions pest control services today on 07728 957 714.</h4>
+                                <Button variant='danger' className='p-3'><h4><FontAwesomeIcon className="text-light" icon={ faPhoneVolume } /> <a className="text-decoration-none text-light fw-bold" href="tel: +4407728957714"> : 077 2895 7714</a></h4></Button>
                             </p>
                         </Col>
                     </Row>
@@ -60,7 +60,7 @@ const Cockroach = () => {
                                 Discretion is something we strive for with all customers as we realise insects of this nature are highly upsetting, causing high levels of distress to our customers.
                             </p>
                             <p className='text-start text-danger'>
-                                <h4>Call Global Pest Control services today on 07728 957 714 if you have a cockroach infestation.</h4>
+                                <Button variant='danger' className='p-3'><h4><FontAwesomeIcon className="text-light" icon={ faPhoneVolume } /> <a className="text-decoration-none text-light fw-bold" href="tel: +4407728957714"> : 077 2895 7714</a></h4></Button>
                             </p>
                         </Col>
                         <Col xs={ 12 } sm={ 12 } md={ 7 } lg={ 7 }>

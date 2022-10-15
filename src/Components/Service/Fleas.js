@@ -2,8 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 import { Button, Col, Container, Row } from 'react-bootstrap';
-import cockroach from '../../images/service/main/cockroach.jpg';
-import cockroach2 from '../../images/service/main/cockroach2.jpg';
+import fleas1 from '../../images/service/main/fleas1.jpg';
+import fleas2 from '../../images/service/main/fleas2.jpg';
 import cockroach3 from '../../images/service/main/cockroach3.jpg';
 import cockroach4 from '../../images/service/main/cockroach4.jpg';
 import cockroach5 from '../../images/service/main/cockroach5.jpg';
@@ -16,55 +16,52 @@ const Fleas = () => {
     return (
         <div className='w-100 overflow-hidden'>
             <Container className='text-center overflow-hidden'>
-                <div className='my-5 overflow-hidden'>
-                    <h1 className='my-2'>Cockroach Eradication Service in the UK</h1>
+                <div className='my-5 overflow-hidden text-success'>
+                    <h1 className='my-2'>Flea Eradication Service in the UK</h1>
                     <h3>Our Technicians are based throughout the country and aim to be with you within 4 hours of your call.</h3>
                 </div>
                 <div className='my-5 overflow-hidden'>
                     <Row className='g-5'>
-                        <Col xs={ 12 } sm={ 12 } md={ 7 } lg={ 7 }>
-                            <img src={ cockroach } alt="cockroach" className='img-fluid mt-4' />
+                        <Col xs={ 12 } sm={ 12 } md={ 6 } lg={ 6 }>
+                            <img src={ fleas1 } alt="cockroach" className='img-fluid' />
                         </Col>
-                        <Col xs={ 12 } sm={ 12 } md={ 5 } lg={ 5 }>
+                        <Col xs={ 12 } sm={ 12 } md={ 6 } lg={ 6 }>
                             <p className='text-start'>
-                                Cockroaches are becoming far more common within more urban areas; attending call-outs to exterminate cockroaches throughout the UK is now routine for Eliminate’s Technicians. Cockroaches are a nuisance and health risk in various industrial and domestic settings throughout the UK.
+                                You may be familiar with fleas and treatments if you have a dog or cat. Fleas can also be carried by other hairy animals such as rabbits, squirrels, foxes and rats.
                             </p>
                             <p className='text-start'>
-                                Two common types of cockroaches reside in the UK. These are Oriental cockroaches (Blatta Orientalis) and German cockroaches (Blattella Germanica).
+                                Fleas can lay between 4-8 eggs every time, producing up to 1000 eggs in their entire 2-year lifetime. These unpleasant pests can swarm a house very quickly if not treated properly. If you have spotted fleas in your home, act promptly to stop the spread.
                             </p>
                             <p className='text-start'>
-                                The German cockroach is the more commonly found one of the two and can be found worldwide. These pests can be found in almost every human-occupied space, but they tend to be increased in numbers where there are restaurants, hotels and other food facilities.
-                            </p>
-                            <p className='text-start'>
-                                The oriental cockroach is also commonly referred to as a waterbug or black beetle and is the larger of the two species. You tend to find them near sewers and other damp areas. Despite its name, it is believed they originate from Africa.
+                                Eliminate Solutions are your local, friendly flea extermination experts. We use the latest in flea removal equipment that is safe for homeowners and their pets, which entirely removes the fleas from your property. We are available 24/7, all year round. We have affordable pest control treatment options for you to choose from that will banish fleas from your home. We can cover Scotland and most of Northern England.
                             </p>
                             <p className='text-start text-danger'>
-                                <h4>If you suspect you have a cockroach problem, call Eliminate Solutions pest control services today on 07728 957 714.</h4>
+                                <Button variant='danger' className='p-3'><h4><FontAwesomeIcon className="text-light" icon={ faPhoneVolume } /> <a className="text-decoration-none text-light fw-bold" href="tel: +4407728957714"> : 077 2895 7714</a></h4></Button>
                             </p>
                         </Col>
                     </Row>
                 </div>
+            </Container>
+            <Container className='text-center overflow-hidden my-5'>
                 <div className='my-5 overflow-hidden'>
                     <Row className='g-5'>
                         <Col xs={ 12 } sm={ 12 } md={ 5 } lg={ 5 }>
+                            <h3 className='text-start mb-5'>Why Choose Global Pest Control</h3>
                             <p className='text-start'>
-                                Eliminate has eradicated cockroaches in lots of different properties, both commercial and domestic, throughout Scotland and Northern England; therefore, you have the experience and training to resolve your cockroach problem fast and efficiently.
+                                Global Pest Control has many years of pest control experience behind, so we’re fully qualified to tackle your flea pest problems with a range of professional treatments available. We set strict guidelines for all our pest removal experts and operate only the most humane pest control solutions.
                             </p>
-                            <p className='text-start'>
-                                Cockroaches can carry harmful bacteria such as Salmonella and E-Coli which they can transfer to a human host. Both bacteria can cause food poisoning and be dangerous to humans who consume infected food. Cockroaches can also be an asthma trigger.
+                            <p className='text-start my-5'>
+                                Around 40% of homeowners have pets, whether a dog, cat or other furry mammals. Fleas like to attach themselves to your loved companions and can be transferred from one to another through contact. Once they are brought into your home, they can infest furniture and carpets. Fleas can also bite, capable of transferring diseases.
                             </p>
-                            <p className='text-start'>
-                                They can be invasive and enter your home for warmth, food and water. They can enter through just about any gap in your house, such as air vents, under the doors and windows. It is advisable not to handle a cockroach as it can trigger an allergic reaction.
-                            </p>
-                            <p className='text-start'>
-                                Discretion is something we strive for with all customers as we realise insects of this nature are highly upsetting, causing high levels of distress to our customers.
+                            <p className='text-start my-5'>
+                                Global Pest Control understands that flies can be a real pest. If you require fly control and are located in London, contact us today.
                             </p>
                             <p className='text-start text-danger'>
-                                <h4>Call Global Pest Control services today on 07728 957 714 if you have a cockroach infestation.</h4>
+                                <Button variant='danger' className='p-3'><h4><FontAwesomeIcon className="text-light" icon={ faPhoneVolume } /> <a className="text-decoration-none text-light fw-bold" href="tel: +4407728957714"> : 077 2895 7714</a></h4></Button>
                             </p>
                         </Col>
                         <Col xs={ 12 } sm={ 12 } md={ 7 } lg={ 7 }>
-                            <img src={ cockroach2 } alt="cockroach" className='img-fluid' />
+                            <img src={ fleas2 } alt="cockroach" className='img-fluid' />
                         </Col>
                     </Row>
                 </div>
@@ -134,7 +131,7 @@ const Fleas = () => {
                 </Row>
             </Container>
             <ScrollToTop smooth />
-        </div>
+        </div >
     );
 };
 

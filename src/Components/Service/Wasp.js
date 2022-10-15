@@ -38,7 +38,7 @@ const Wasp = () => {
                                 Please remember that wasps can become highly aggressive if they feel threatened, so attempting to remove the wasp nest is not advisable. Bring in the wasp eradication experts at Eliminate Solutions and remove the risk of harming yourself or your family.
                             </p>
                             <p className='text-start text-danger'>
-                                <h4>If you are looking for a wasp removal expert, call Eliminate Solutions pest control services today on 07728 957 714.</h4>
+                                <Button variant='danger' className='p-3'><h4><FontAwesomeIcon className="text-light" icon={ faPhoneVolume } /> <a className="text-decoration-none text-light fw-bold" href="tel: +4407728957714"> : 077 2895 7714</a></h4></Button>
                             </p>
                         </Col>
                     </Row>
@@ -59,7 +59,7 @@ const Wasp = () => {
                                 Whether it’s a commercial, domestic or industrial premises Eliminate Ltd has the skills and resources to tackle any pest control issues you may be facing. Our services also cover a vast area throughout Scotland and Northern England, meaning you can be assured that we can be with you immediately after your initial call.
                             </p>
                             <p className='text-start text-danger'>
-                                <h4>Call Global Pest Control services today on 07728 957 714 If you are looking for a wasp exterminator.</h4>
+                                <Button variant='danger' className='p-3'><h4><FontAwesomeIcon className="text-light" icon={ faPhoneVolume } /> <a className="text-decoration-none text-light fw-bold" href="tel: +4407728957714"> : 077 2895 7714</a></h4></Button>
                             </p>
                         </Col>
                         <Col xs={ 12 } sm={ 12 } md={ 7 } lg={ 7 }>

@@ -35,14 +35,14 @@ const Flies = () => {
                             <p className='text-start my-4'>
                                 Global Pest Control understands that flies can be a real pest. If you require fly control and are located in London, contact us today.
                             </p>
-                            <p className='text-start text-danger'>
-                                <h4>If you suspect you have a Flies problem, call Global Pest Control services today on 07728 957 714.</h4>
+                            <p className='text-start mt-5'>
+                                <Button variant='danger' className='p-3'><h4><FontAwesomeIcon className="text-light" icon={ faPhoneVolume } /> <a className="text-decoration-none text-light fw-bold" href="tel: +4407728957714"> : 077 2895 7714</a></h4></Button>
                             </p>
                         </Col>
                     </Row>
                 </div>
                 <div className='my-5 overflow-hidden'>
-                    <Row className='g-5'>
+                    <Row className='g-5 my-5'>
                         <Col xs={ 12 } sm={ 12 } md={ 5 } lg={ 5 }>
                             <h3 className='text-start mt-2 mb-2'>How Flies Can Be A Danger To Health</h3>
                             <p className='text-start'>
@@ -74,7 +74,7 @@ const Flies = () => {
                                 <h4>Call Global Pest Control services today on 07728 957 714 if you have a fly1 infestation.</h4>
                             </p>
                             <p className='text-start text-danger my-5 ms-3'>
-                                <Link to="/contact" className='text-decoration-none text-light'><Button variant='success' className='p-4 my-3'><h4>Get Quote</h4></Button></Link>
+                                <Button variant='danger' className='p-3'><h4><FontAwesomeIcon className="text-light" icon={ faPhoneVolume } /> <a className="text-decoration-none text-light fw-bold" href="tel: +4407728957714"> : 077 2895 7714</a></h4></Button>
                             </p>
                         </Col>
                         <Col xs={ 12 } sm={ 12 } md={ 7 } lg={ 7 }>

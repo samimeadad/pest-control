@@ -66,13 +66,16 @@ const Rodent = () => {
                                 In some situations, rodent proofing will go a long way to help with issues in domestic and commercial premises.  Eliminate can provide one of the eradication services as well as ongoing rodent monitoring and control programmes.  Your Technician will advise you on the best products available to make your property a fortress against infestation.
                             </p>
                             <p className='text-start'>
-                                <h3 className='my-5'>Types of rodents in the UK</h3>
+                                <h3 className='mt-5'>Types of rodents in the UK</h3>
                             </p>
-                            <p className='text-start my-5'>
+                            <p className='text-start'>
                                 <span className='fw-bold'>Rat – </span>The most common rodent you will likely find in the UK is the Rat. There are two species of rat, the brown rat and the black rat. They are often carriers of nasty diseases and parasites, including Weils disease, Listeria, Salmonella, Leptospirosis and Hantavirus. Rats will feed on anything that will give them nutrition, such as rotten food, faeces, and even rotting corpses of other animals. Their lifestyle can lead to them coming into contact with deadly viruses.
                             </p>
                             <p className='text-start'>
                                 <span className='fw-bold'>Mice – </span> There are several different species of mice in the UK, such as the house mouse, dormouse, harvest mouse, wood mouse and the yellow-necked mouse, Out of their species, only the dormouse is a protected one. A mouse can often carry the same diseases that a rat does. They can often invade properties finding shelter under the floorboards and in attics and wall cavities.
+                            </p>
+                            <p className='text-start'>
+                                <Button variant='danger' className='p-3'><h4><FontAwesomeIcon className="text-light" icon={ faPhoneVolume } /> <a className="text-decoration-none text-light fw-bold" href="tel: +4407728957714"> : 077 2895 7714</a></h4></Button>
                             </p>
                         </Col>
                         <Col xs={ 12 } sm={ 12 } md={ 7 } lg={ 7 }>

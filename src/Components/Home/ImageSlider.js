@@ -162,8 +162,8 @@ const ImageSlider = () => {
                     </Carousel>
                 </Col>
                 <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 }>
-                    <div className='text-center my-4 overflow-hidden'>
-                        <h2 className='fw-bold text-light mb-3'>Get A Free Quote</h2>
+                    <div className='text-center mt-2 overflow-hidden'>
+                        <h2 className='fw-bold text-light mb-2'>Get A Free Quote</h2>
                         {
                             success ? <h6 className="text-light">{ successMessage }</h6> : <h6 className="text-danger">{ error }</h6>
                         }
