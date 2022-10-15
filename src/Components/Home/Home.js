@@ -5,7 +5,7 @@ import ImageSlider from './ImageSlider';
 
 const Home = () => {
     return (
-        <div>
+        <div className='w-100 overflow-hidden'>
             <ImageSlider />
             <HomeService />
             <ScrollToTop smooth />

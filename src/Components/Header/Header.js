@@ -9,10 +9,10 @@ import { Button, Container } from 'react-bootstrap';
 
 const Header = () => {
     return (
-        <header className='header overflow-hidden text-center'>
-            <div className='overflow-hidden text-center bg-light'>
-                <Container className='overflow-hidden text-center'>
-                    <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className='text-center'>
+        <header className='header overflow-hidden text-center w-100'>
+            <div className='overflow-hidden text-center bg-light w-100'>
+                <Container className='overflow-hidden text-center w-100'>
+                    <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className='text-center w-100'>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" className='ms-3' />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Navbar.Brand className='d-flex align-items-center text-center'>

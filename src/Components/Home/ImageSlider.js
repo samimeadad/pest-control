@@ -41,10 +41,16 @@ const ImageSlider = () => {
         <div className='w-100 overflow-hidden p-5' style={ { backgroundImage: `url(${ background })`, backgroundSize: "cover", overflow: 'hidden' } }>
             <Row className='overflow-hidden g-5'>
                 <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 }>
-                    <div className='text-center ms-4 mt-5'>
+                    <div className='text-center ms-4 mt-4'>
                         <h1 className='text-start text-light fw-bold fs-1 my-3'>Global Pest Control</h1>
                         <h1 className='text-start text-warning fw-bold fs-1 my-3'>For A Pest-Free Home</h1>
                         <h1 className='text-start text-light fw-bold fs-1 my-3'>Pest Termination To Perfection</h1>
+                    </div>
+                    <div className='text-center ms-4 mt-5'>
+                        <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; Fast response from 60 minutes</h6>
+                        <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; No call-out charge on completed work</h6>
+                        <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; Very competitive local rates</h6>
+                        <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; Discreet engineers</h6>
                     </div>
                 </Col>
                 <Col xs={ 12 } sm={ 12 } md={ 6 } lg={ 6 }>
@@ -56,8 +62,8 @@ const ImageSlider = () => {
                                 alt="Second slide"
                             />
                             <Carousel.Caption>
-                                <h3>Second slide label</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <h3>Flies</h3>
+                                <p>When an infestation of flies breaks out at your home, it is never a pleasant experience. From bites, to destroying your food and more, they need to be dealt with fast. ERG are on hand 7 days a week with a local pest controller on hand to apply the lasting treatment to your property!</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
@@ -67,9 +73,9 @@ const ImageSlider = () => {
                                 alt="Third slide"
                             />
                             <Carousel.Caption>
-                                <h3>Third slide label</h3>
+                                <h3>Rodents</h3>
                                 <p>
-                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                    Rats, mice and even squirrels can cause major disruption to your home or business. Causing unsanitary conditions and even fire hazards, rodents need to be addressed ASAP. Our local team stock a number of traps that can help to remove mice and rats from your property. So, if you think you are living alongside rodents, give us a call!
                                 </p>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -79,10 +85,10 @@ const ImageSlider = () => {
                                 src={ banner2 }
                                 alt="Fourth slide"
                             />
-                            <Carousel.Caption>
-                                <h3>Fourth slide label</h3>
+                            <Carousel.Caption className='text-dark'>
+                                <h3>Cockroaches</h3>
                                 <p>
-                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                    From eating your food to spreading disease, cockroaches are strongly linked to unsanitary connotations. This is not something you can just let slide on your property. Our pest control team can clear up the cockroach infestation efficiently, with no mess and no more hassle. Get your free quote from us today!
                                 </p>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -92,10 +98,10 @@ const ImageSlider = () => {
                                 src={ banner5 }
                                 alt="Fifth slide"
                             />
-                            <Carousel.Caption>
-                                <h3>Fifth slide label</h3>
+                            <Carousel.Caption className='text-dark'>
+                                <h3>Mosquitoes</h3>
                                 <p>
-                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                    Our targeted mosquito pest control service combines the most advanced technology and methods available to help take back your home.
                                 </p>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -106,9 +112,9 @@ const ImageSlider = () => {
                                 alt="Sixth slide"
                             />
                             <Carousel.Caption>
-                                <h3>Sixth slide label</h3>
+                                <h3>Wasps & Bees Nests</h3>
                                 <p>
-                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                    Wasps nests and bee hives cause a constant issue for homeowners during the long summer months. Our local team are adept at providing quick and effective treatment that eliminates these nests in a matter of hours. Our wasp removal and bee treatment ensures you are free from the risk of stings and able to enjoy your garden in peace once again!
                                 </p>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -119,9 +125,9 @@ const ImageSlider = () => {
                                 alt="Seventh slide"
                             />
                             <Carousel.Caption>
-                                <h3>Seventh slide label</h3>
+                                <h3>Fleas</h3>
                                 <p>
-                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                    Once a flea infestation appears on your property, it can be a nightmare to deal with. Your high street flea bombs and other treatments are rarely effective. The only true way to deal with a flea infestation is to call in the professionals. We eliminate the fleas themselves, and their eggs, putting a stop to your flea problem for good!
                                 </p>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -132,9 +138,9 @@ const ImageSlider = () => {
                                 alt="Eighth slide"
                             />
                             <Carousel.Caption>
-                                <h3>Eighth slide label</h3>
+                                <h3>Why Global Pest Control</h3>
                                 <p>
-                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                    Global Pest Control is part of the renowned services provider brand, which means that we apply the same customer-service practices, high-quality standards and company’s principles of our service delivery process. Through innovative technology, modern online solutions and an all-round satisfaction approach, we make sure that customers and pest technicians alike have a fantastic service experience as an end result.
                                 </p>
                             </Carousel.Caption>
                         </Carousel.Item>
@@ -145,16 +151,16 @@ const ImageSlider = () => {
                                 alt="Ninth slide"
                             />
                             <Carousel.Caption>
-                                <h3>Ninth slide label</h3>
+                                <h3>Our Soldiers</h3>
                                 <p>
-                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                    We work with experts, who operate under the Global Pest Control brand through our franchise business model. They have a solid background in the pest control field and are fully certified and insured, in order to provide a high-quality service. The exterminators are trained and equipped to inspect, treat and proof residential properties and commercial buildings against various types of pests. The teams are on call even when you need a discreet assistance urgently and without delay.
                                 </p>
                             </Carousel.Caption>
                         </Carousel.Item>
                     </Carousel>
                 </Col>
                 <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 }>
-                    <div className='text-center my-2 overflow-hidden'>
+                    <div className='text-center my-4 overflow-hidden'>
                         <h2 className='fw-bold text-light mb-3'>Get A Free Quote</h2>
                         {
                             success ? <h6 className="text-light">{ successMessage }</h6> : <h6 className="text-danger">{ error }</h6>
