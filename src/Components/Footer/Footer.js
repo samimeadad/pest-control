@@ -8,8 +8,8 @@ import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 //component for footer
 const Footer = () => {
     return (
-        <footer className="bg-dark text-light p-5 overflow-hidden">
-            <div className="text-center mb-3 overflow-hidden">
+        <footer className="bg-dark text-light p-5 overflow-hidden w-100">
+            <div className="text-center mb-3 overflow-hidden w-100">
                 <img style={ { width: '150px' } } src={ logo } alt="logoImage" className='img-fluid' />
             </div>
             <div className="container mb-5 overflow-hidden">
@@ -75,7 +75,7 @@ const Footer = () => {
                 <p>
                     <Button variant='light' className='p-3'><h5><FontAwesomeIcon className="text-danger" icon={ faPhoneVolume } /> <a className="text-decoration-none text-danger fw-bold" href="tel: +4407728957714"> : 077 2895 7714</a></h5></Button>
                 </p>
-                <p className="mt-5 text-center overflow-hidden">
+                <p className="mt-5 text-center overflow-hidden w-100">
                     <Link to={ { pathname: "https://www.facebook.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fa fa-facebook text-danger me-3" data-toggle="tooltip" title="Facebook"></i></Link>
                     <Link to={ { pathname: "https://www.twitter.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fa fa-twitter text-danger me-3" data-toggle="tooltip" title="Twitter"></i></Link>
                     <Link to={ { pathname: "https://www.linkedin.com/" } } target="_blank" rel="noreferrer"><i aria-hidden="true" className="fa fa-linkedin text-danger me-3" data-toggle="tooltip" title="Linkedin"></i></Link>
