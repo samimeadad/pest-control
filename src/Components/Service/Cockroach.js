@@ -18,7 +18,7 @@ const Cockroach = () => {
             <Container className='text-center overflow-hidden'>
                 <div className='my-5 overflow-hidden text-success'>
                     <h1 className='my-2'>Cockroach Eradication Service in the UK</h1>
-                    <h3>Our Technicians are based throughout the country and aim to be with you within 4 hours of your call.</h3>
+                    <h3>Global Pest Control Technicians are based throughout the country and aim to be with you within 4 hours of your call.</h3>
                 </div>
                 <div className='my-5 overflow-hidden'>
                     <Row className='g-5'>
@@ -27,7 +27,7 @@ const Cockroach = () => {
                         </Col>
                         <Col xs={ 12 } sm={ 12 } md={ 5 } lg={ 5 }>
                             <p className='text-start'>
-                                Cockroaches are becoming far more common within more urban areas; attending call-outs to exterminate cockroaches throughout the UK is now routine for Eliminate’s Technicians. Cockroaches are a nuisance and health risk in various industrial and domestic settings throughout the UK.
+                                Cockroaches are becoming far more common within more urban areas; attending call-outs to exterminate cockroaches throughout the UK is now routine for Global Pest Control Technicians. Cockroaches are a nuisance and health risk in various industrial and domestic settings throughout the UK.
                             </p>
                             <p className='text-start'>
                                 Two common types of cockroaches reside in the UK. These are Oriental cockroaches (Blatta Orientalis) and German cockroaches (Blattella Germanica).
@@ -48,7 +48,7 @@ const Cockroach = () => {
                     <Row className='g-5'>
                         <Col xs={ 12 } sm={ 12 } md={ 5 } lg={ 5 }>
                             <p className='text-start'>
-                                Eliminate has eradicated cockroaches in lots of different properties, both commercial and domestic, throughout Scotland and Northern England; therefore, you have the experience and training to resolve your cockroach problem fast and efficiently.
+                                Global Pest Control has eradicated cockroaches in lots of different properties, both commercial and domestic, throughout Scotland and Northern England; therefore, you have the experience and training to resolve your cockroach problem fast and efficiently.
                             </p>
                             <p className='text-start'>
                                 Cockroaches can carry harmful bacteria such as Salmonella and E-Coli which they can transfer to a human host. Both bacteria can cause food poisoning and be dangerous to humans who consume infected food. Cockroaches can also be an asthma trigger.
@@ -80,7 +80,7 @@ const Cockroach = () => {
                                 Our Cockroach programmes use a knockdown spray to remove as many of these unwanted pests as possible in one go.   The spray we use not only kills the eggs, adult and juvenile (nymph) cockroaches on contact with the insect but will also remain active for some time after the initial spray treatment. In conjunction with this, we will also treat the affected area with an edible poison in a gel form, which will round up any cockroaches that the initial spray may miss.
                             </p>
                             <p className='text-start mb-5'>
-                                Cockroaches are very resilient pests and are tough to eradicate. Their ability to breed rapidly makes cockroach pest removal services even more vital. If you can catch the infestation quickly enough, it will be easier to manage the situation. Eliminate Solutions has only the best elimination equipment to handle any size cockroach infestation.
+                                Cockroaches are very resilient pests and are tough to eradicate. Their ability to breed rapidly makes cockroach pest removal services even more vital. If you can catch the infestation quickly enough, it will be easier to manage the situation. Global Pest Control Solutions has only the best elimination equipment to handle any size cockroach infestation.
                             </p>
                             <p className='text-start mb-5'>
                                 Cockroaches can damage a commercial premises’ reputation, mainly if it is related to food. In addition, cockroaches are well known to carry several diseases, which can lead to illnesses such as food poisoning, tapeworm, dysentery, fungus, roundworm and other viruses and allergies.
@@ -96,15 +96,15 @@ const Cockroach = () => {
                 </div>
             </Container>
             <div className='w-100 overflow-hidden text-center bg-success text-light my-5'>
-                <h2 className='mt-5'>Have your cockroach problems Eliminated.</h2>
-                <h2>Call us today for a free quote and to arrange an appointment</h2>
+                <h2 className='mt-5'>Have your cockroach problems removed forever</h2>
+                <h2>Call Global Pest Control today for a free quote and to arrange an appointment</h2>
                 <Button variant='light' className='p-3 my-5'><h4><FontAwesomeIcon className="text-danger" icon={ faPhoneVolume } /> <a className="text-decoration-none text-danger fw-bold" href="tel: +4407728957714"> : 07728957714</a></h4></Button>
             </div>
             <Container className='text-center overflow-hidden my-5'>
                 <Row className='g-5 my-5'>
                     <Col xs={ 12 } sm={ 12 } md={ 7 } lg={ 7 }>
                         <p className='text-start mb-5 mt-3'>
-                            In some situations, insect proofing will go a long way to help with issues on domestic and commercial premises. Eliminate can provide one of the eradication services as well as ongoing roach monitoring and control programmes. Your Technician will advise you of the best products available to make your property a fortress against re-infestation.
+                            In some situations, insect proofing will go a long way to help with issues on domestic and commercial premises. Global Pest Control can provide one of the eradication services as well as ongoing roach monitoring and control programmes. Your Technician will advise you of the best products available to make your property a fortress against re-infestation.
                         </p>
                         <p className='text-start mb-5'>
                             It is responsible for tackling a cockroach pest problem as quickly as possible. Otherwise, they could soon spread to neighbouring properties. Once we have health with your cockroach pest problem, then there are many steps you can take to prevent a future cockroach infestation.

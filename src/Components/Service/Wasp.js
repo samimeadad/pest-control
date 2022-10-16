@@ -29,13 +29,13 @@ const Wasp = () => {
                                 As the summer months roll around, it’s not unusual to see an influx of wasps and bees around your property. However, if these stinging insects decide to settle in or around your premises, it can not only be irritating but potentially hazardous.
                             </p>
                             <p className='text-start'>
-                                Here at Eliminate, we understand the importance of dealing with wasp nest removal quickly and carefully to minimise the risk of injury or recurrence, which is why our qualified team of wasp removal specialists are on hand to assist with wasp or bee removal.
+                                Here at Global Pest Control, we understand the importance of dealing with wasp nest removal quickly and carefully to minimise the risk of injury or recurrence, which is why our qualified team of wasp removal specialists are on hand to assist with wasp or bee removal.
                             </p>
                             <p className='text-start'>
-                                Eliminate Solutions can guarantee that we will eradicate your wasp nest using wasp control methods that are highly effective. We have years of experience in wasp nest eradication and have access to all of the latest wasp removal protection equipment to remove the hive safely.
+                                Global Pest Control can guarantee that we will eradicate your wasp nest using wasp control methods that are highly effective. We have years of experience in wasp nest eradication and have access to all of the latest wasp removal protection equipment to remove the hive safely.
                             </p>
                             <p className='text-start'>
-                                Please remember that wasps can become highly aggressive if they feel threatened, so attempting to remove the wasp nest is not advisable. Bring in the wasp eradication experts at Eliminate Solutions and remove the risk of harming yourself or your family.
+                                Please remember that wasps can become highly aggressive if they feel threatened, so attempting to remove the wasp nest is not advisable. Bring in the wasp eradication experts at Global Pest Control and remove the risk of harming yourself or your family.
                             </p>
                             <p className='text-start text-danger'>
                                 <Button variant='danger' className='p-3'><h4><FontAwesomeIcon className="text-light" icon={ faPhoneVolume } /> <a className="text-decoration-none text-light fw-bold" href="tel: +4407728957714"> : 077 2895 7714</a></h4></Button>
@@ -50,13 +50,13 @@ const Wasp = () => {
                                 Wasp nest can be complicated to locate and hidden in the most obscure places, such as under roof slates, in your shed, behind window frames, or in your garden hedge.
                             </p>
                             <p className='text-start'>
-                                If you think you need to hire the service of the wasp control experts, call Eliminate Solutions today.
+                                If you think you need to hire the service of the wasp control experts, call Global Pest Control today.
                             </p>
                             <p className='text-start'>
                                 Every bee and wasp nest removal job is different, so it is essential to tackle every situation individually. Before any attempt to remove a nest, we ensure that all options are covered, considering whether a nest can be removed or needs to be eradicated.
                             </p>
                             <p className='text-start'>
-                                Whether it’s a commercial, domestic or industrial premises Eliminate Ltd has the skills and resources to tackle any pest control issues you may be facing. Our services also cover a vast area throughout Scotland and Northern England, meaning you can be assured that we can be with you immediately after your initial call.
+                                Whether it’s a commercial, domestic or industrial premises Global Pest Control Ltd has the skills and resources to tackle any pest control issues you may be facing. Our services also cover a vast area throughout Scotland and Northern England, meaning you can be assured that we can be with you immediately after your initial call.
                             </p>
                             <p className='text-start text-danger'>
                                 <Button variant='danger' className='p-3'><h4><FontAwesomeIcon className="text-light" icon={ faPhoneVolume } /> <a className="text-decoration-none text-light fw-bold" href="tel: +4407728957714"> : 077 2895 7714</a></h4></Button>
@@ -110,7 +110,7 @@ const Wasp = () => {
                             Prevention is better than cure, which is no different when it comes to minimising the chances of wasps and bees infiltrating your property.
                         </p>
                         <p className='text-start'>
-                            You will want to make the most of the fresh air, but open windows leave your property vulnerable to wasp intrusions. If applicable, insect screens can be installed in your property, which can significantly deter insects from setting up shop throughout a commercial premise. Wasp traps can also be extremely useful in drawing insects away from densely populated outdoor spaces such as beer gardens and restaurants. Both products can be supplied and installed by the team here at Eliminate.
+                            You will want to make the most of the fresh air, but open windows leave your property vulnerable to wasp intrusions. If applicable, insect screens can be installed in your property, which can significantly deter insects from setting up shop throughout a commercial premise. Wasp traps can also be extremely useful in drawing insects away from densely populated outdoor spaces such as beer gardens and restaurants. Both products can be supplied and installed by the team here at Global Pest Control.
                         </p>
                         <p className='text-start text-danger'>
                             <h3>Call Global Pest Control on 07728 957 714 to discover more about our Wasp Pest Control Services.</h3>

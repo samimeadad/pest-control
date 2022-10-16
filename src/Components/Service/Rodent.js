@@ -53,8 +53,8 @@ const Rodent = () => {
             </Container>
             <div className='w-100 overflow-hidden text-center bg-success text-light my-5 p-5'>
                 <h5>If you require assistance with pests, we will have a Technician with you on the day you call us or at your earliest convenience.</h5>
-                <h2 className='mt-5'>Have your rodent problems eliminated for good.</h2>
-                <h2>Call us today for a free quote and to arrange an appointment</h2>
+                <h2 className='mt-5'>Have your rodent problems eliminated forever</h2>
+                <h2>Call Global Pest Control today for a free quote and to arrange an appointment</h2>
                 <Button variant='light' className='p-3 mt-5'><h4><FontAwesomeIcon className="text-danger" icon={ faPhoneVolume } /> <a className="text-decoration-none text-danger fw-bold" href="tel: +4407728957714"> : 07728957714</a></h4></Button>
             </div>
             <Container className='text-center overflow-hidden my-5'>

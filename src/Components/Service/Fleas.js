@@ -94,7 +94,7 @@ const Fleas = () => {
             </Container>
             <div className='w-100 overflow-hidden text-center bg-success text-light my-5'>
                 <h2 className='mt-5'>Have your Fleas problems remove forever</h2>
-                <h2>Call us today for a free quote and to arrange an appointment</h2>
+                <h2>Call Global Pest Control today for a free quote and to arrange an appointment</h2>
                 <Button variant='light' className='p-3 my-5'><h4><FontAwesomeIcon className="text-danger" icon={ faPhoneVolume } /> <a className="text-decoration-none text-danger fw-bold" href="tel: +4407728957714"> : 07728957714</a></h4></Button>
             </div>
             <Container className='text-center overflow-hidden my-5'>
