@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Col, Container, Form, Row } from 'react-bootstrap';
+import { Button, Col, Form, Row } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import banner2 from '../../images/banner/2.jpg';
 import banner3 from '../../images/banner/3.jpg';
