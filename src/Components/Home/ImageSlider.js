@@ -43,16 +43,17 @@ const ImageSlider = () => {
                 <Col xs={ 12 } sm={ 12 } md={ 3 } lg={ 3 }>
                     <div className='text-center mt-4'>
                         <h1 className='text-start text-light fw-bold fs-1 my-3'>Global Pest Control</h1>
-                        <h1 className='text-start text-warning fw-bold fs-1 my-3'>For A Pest-Free Home</h1>
-                        <h1 className='text-start text-light fw-bold fs-1 my-3'>Pest Termination To Perfection</h1>
+                        <h1 className='text-start text-warning fw-bold fs-1 my-3'>Safeguards
+                            Your Home and Business</h1>
+                        <h1 className='text-start text-light fw-bold fs-1 my-3'>From Pests</h1>
                     </div>
                     <div className='text-center mt-4'>
-                        <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; Fast response from 60 minutes</h6>
-                        <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; No call-out charge on completed work</h6>
-                        <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; Ethical Responsible Pest Control Solutions</h6>
+                        <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; Commercial and Domestic Pest Control Services</h6>
+                        <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; Quality Pest Control for Wasps, Bees, Fleas, Bedbugs, Rodents, and Birds</h6>
+                        <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; Expert Solutions to Keep Your Property Pest-Free</h6>
+                        <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; Fast response within 60 minutes</h6>
                         <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; Very competitive local rates</h6>
                         <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; Preventive Surveys</h6>
-                        <h6 className='text-start text-dark fw-bold my-3 p-2 bg-warning'>&#10004; Discreet engineers</h6>
                     </div>
                 </Col>
                 <Col xs={ 12 } sm={ 12 } md={ 6 } lg={ 6 }>

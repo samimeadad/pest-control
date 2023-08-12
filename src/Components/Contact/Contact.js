@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Button, Card, Col, Container, Form, Row } from 'react-bootstrap';
 import emailjs from '@emailjs/browser';
 import ScrollToTop from 'react-scroll-to-top';
 
 const Contact = () => {
+    useEffect( () => {
+        window.scrollTo( 0, 0 )
+    }, [] )
 
     const [ success, setSuccess ] = useState( false );
     const [ successMessage, setSuccessMessage ] = useState( '' );
