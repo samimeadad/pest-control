@@ -1,6 +1,7 @@
 {
   "name": "pest-control",
   "version": "0.1.0",
+  "homepage": "https://globalpestcontrol.uk/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
