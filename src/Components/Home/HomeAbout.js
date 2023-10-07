@@ -5,7 +5,7 @@ const HomeAbout = () => {
     return (
         <div className='overflow-hidden'>
             <Container className='my-5 overflow-hidden text-center'>
-                <h2 className='my-5'>Welcome to Global Pest Control.</h2>
+                <h2 className='my-5 text-success'>Welcome to Global Pest Control.</h2>
                 <p className='my-5 fs-5'>
                     We are a professional business offering pest control services.  We are professionally trained ,We  deal with commercial properties and domestic properties.   We offer our services predominantly in the Sussex area.  Our pest control services in Sussex is tailored around each customer, ensuring every requirement is completely met. We cover one-off problems to continued contract work.
                 </p>
