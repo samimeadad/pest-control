@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 
 const Telephone = () => {
+    useEffect( () => {
+        window.scrollTo( 0, 0 )
+    }, [] )
     return (
         <div className='bg-light p-5 mt-5 overflow-hidden'>
             <Container className='overflow-hidden'>

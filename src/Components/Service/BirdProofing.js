@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 import { Button, Col, Container, Row } from 'react-bootstrap';
@@ -9,6 +9,9 @@ import { Link } from 'react-router-dom';
 import ScrollToTop from 'react-scroll-to-top';
 
 const BirdProofing = () => {
+    useEffect( () => {
+        window.scrollTo( 0, 0 )
+    }, [] )
     return (
         <div className='w-100 overflow-hidden'>
             <Container className='text-center overflow-hidden'>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 import { Button, Col, Container, Row } from 'react-bootstrap';
@@ -7,11 +7,13 @@ import wasp2 from '../../images/service/main/wasp2.jpg';
 import wasp4 from '../../images/service/main/wasp4.jpg';
 import wasp5 from '../../images/service/main/wasp5.jpg';
 import wasp6 from '../../images/service/main/wasp6.jpg';
-
 import { Link } from 'react-router-dom';
 import ScrollToTop from 'react-scroll-to-top';
 
 const Wasp = () => {
+    useEffect( () => {
+        window.scrollTo( 0, 0 )
+    }, [] )
     return (
         <div className='w-100 overflow-hidden'>
             <Container className='overflow-hidden'>
