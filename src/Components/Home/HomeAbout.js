@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 
 const HomeAbout = () => {
     return (
-        <div className='overflow-hidden'>
+        <div className='overflow-hidden my-5'>
             <Container className='my-5 overflow-hidden text-center'>
                 <h2 className='my-5 text-success'>Welcome to Global Pest Control.</h2>
                 <p className='my-5 fs-5'>
