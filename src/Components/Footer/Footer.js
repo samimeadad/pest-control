@@ -31,13 +31,6 @@ const Footer = () => {
                             <br />
                             <span>Sussex</span>
                             <br />
-                            <span>Bristol</span>
-                            <br />
-                            <span>Liverpool</span>
-                            <br />
-                            <span>Birmingham</span>
-                            <br />
-                            <span>Manchester</span>
                         </p>
                     </Col>
 
@@ -62,7 +55,7 @@ const Footer = () => {
                         <p className='overflow-hidden text-center'>
                             <Link to="/home" className='text-decoration-none'><span>HOME</span></Link>
                             <br />
-                            <Link to="/about" className='text-decoration-none'><span>ABOUT</span></Link>
+                            <Link to="/about" className='text-decoration-none'><span>ABOUT US</span></Link>
                             <br />
                             <Link to="/service" className='text-decoration-none'><span>SERVICE</span></Link>
                             <br />
