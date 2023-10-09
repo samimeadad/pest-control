@@ -66,7 +66,7 @@ const ImageSlider = () => {
                             />
                             <Carousel.Caption>
                                 <h3>Flies</h3>
-                                <p>When an infestation of flies breaks out at your home, it is never a pleasant experience. From bites, to destroying your food and more, they need to be dealt with fast. ERG are on hand 7 days a week with a local pest controller on hand to apply the lasting treatment to your property!</p>
+                                <p>When an infestation of flies breaks out at your home, it is never a pleasant experience. From bites, to destroying your food and more, they need to be dealt with fast.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>

@@ -58,7 +58,7 @@ const Wasp = () => {
                                 Every bee and wasp nest removal job is different, so it is essential to tackle every situation individually. Before any attempt to remove a nest, we ensure that all options are covered, considering whether a nest can be removed or needs to be eradicated.
                             </p>
                             <p className='text-start'>
-                                Whether it’s a commercial, domestic or industrial premises Global Pest Control Ltd has the skills and resources to tackle any pest control issues you may be facing. Our services also cover a vast area throughout Scotland and Northern England, meaning you can be assured that we can be with you immediately after your initial call.
+                                Whether it’s a commercial, domestic or industrial premises Global Pest Control Ltd has the skills and resources to tackle any pest control issues you may be facing. Our services also cover a vast area throughout Sussex and London, meaning you can be assured that we can be with you immediately after your initial call.
                             </p>
                             <p className='text-start text-danger'>
                                 <Button variant='danger' className='p-3'><h4><FontAwesomeIcon className="text-light" icon={ faPhoneVolume } /> <a className="text-decoration-none text-light fw-bold" href="tel: +4407728957714"> : 077 2895 7714</a></h4></Button>
